@@ -7,7 +7,7 @@
 <!-- HOJA DE ESTILOS -->
 <link href="<?php echo base_url();?>tools/css/bootstrap.min.css"          rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/owl.carousel.min.css"       rel="stylesheet" type="text/css">
-<link href="<?php echo base_url();?>tools/css/font-awesome.min.css"       rel="stylesheet" type="text/css">
+<!--<link href="<?php echo base_url();?>tools/css/font-awesome.min.css"       rel="stylesheet" type="text/css">-->
 <link href="<?php echo base_url();?>tools/css/animate.min.css"            rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/jquery-ui.min.css"          rel="stylesheet" type="text/css">
 
@@ -67,7 +67,7 @@
 						<div class="row">
 							<div class="col-lg-2 col-md-3 col-sm-3 col-xs-12  left-content">
 								<div class="logo">
-									<a href="index.html"><img src="<?php echo base_url();?>tools/images/main-logo.png" alt=""></a>
+									<a href="index.html"><img src="<?php echo base_url();?>tools/images/main-logo.jpg" alt=""></a>
 								</div>
 							</div>
 							<div class="col-lg-8 col-md-4 col-sm-4 col-xs-6 midle-content">
