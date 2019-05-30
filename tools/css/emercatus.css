@@ -16,7 +16,6 @@ figure img{
 
 .title {
   text-align: center;
-  font-family: 'Oswald';
   font-weight: 100;
   font-size: 3.75rem;
   letter-spacing: 5px;
@@ -101,7 +100,6 @@ figure img{
   margin-bottom: 2rem;
   margin-top: 4rem;
   font-size: 2.25rem;
-  font-family: 'Oswald';
   font-weight: 100;
   color: white;
   text-align: center;
