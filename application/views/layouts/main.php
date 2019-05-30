@@ -7,7 +7,7 @@
 <!-- HOJA DE ESTILOS -->
 <link href="<?php echo base_url();?>tools/css/bootstrap.min.css"          rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/owl.carousel.min.css"       rel="stylesheet" type="text/css">
-<!--<link href="<?php echo base_url();?>tools/css/font-awesome.min.css"       rel="stylesheet" type="text/css">-->
+<link href="<?php echo base_url();?>tools/css/font-awesome.min.css"       rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/animate.min.css"            rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/jquery-ui.min.css"          rel="stylesheet" type="text/css">
 
@@ -18,7 +18,6 @@
 <link href="<?php echo base_url();?>tools/css/style.css"                  rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/customs-css3.css"           rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/emercatus.css"              rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 <!-- FIN HOJAS DE ESTILOS -->
 
@@ -293,10 +292,10 @@
 								</div>
 							</div>
 							<ul class="list-socials">
-								<li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fab fa-pinterest" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 							</ul>
 						</div>
 						<div class="col-xs-12 col-sm-8 col-md-8 col-lg-9 col-ss-12">
