@@ -125,8 +125,8 @@ figure img{
   transition: all 0.3s cubic-bezier(0.3, 0, 0, 1.3);
 }
 .case-study__link:hover {
-  background-color: white;
-  color: #202020;
+  background-color: #F06C0B;
+  color: white;
 }
 
 .case-study:hover .case-study__title {

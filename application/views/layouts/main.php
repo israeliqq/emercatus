@@ -10,6 +10,8 @@
 <link href="<?php echo base_url();?>tools/css/font-awesome.min.css"       rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/animate.min.css"            rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/jquery-ui.min.css"          rel="stylesheet" type="text/css">
+
+<link href="tools/css/magnific-popup.min.css" rel="stylesheet">
 <link href="<?php echo base_url();?>tools/css/jquery.scrollbar.min.css"   rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/chosen.min.css"             rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/ovic-mobile-menu.css"       rel="stylesheet" type="text/css">
