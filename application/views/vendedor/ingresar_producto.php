@@ -1,62 +1,87 @@
+<script src="http://demo.itsolutionstuff.com/plugin/jquery.js"></script>
+    <link rel="stylesheet" href="http://demo.itsolutionstuff.com/plugin/bootstrap-3.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/min/dropzone.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.2.0/min/dropzone.min.js"></script>
 
-<div class="breadcome-area">
-    <div class="container-fluid">
-        <div class="breadcome-list single-page-breadcome">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h3>Ingresar Producto</h3>
-                    <hr>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <form action="<?php echo base_url();?>vendedor/upload" method="post" accept-charset="utf-8" class="dropzone">
+<div class="main-content shop-page login-page">
+    <div class="container">
+        <div class="breadcrumbs">
+            <a href="#">Inicio</a> \ <span class="current"> Ingresar al Sistema</span>
+        </div>
+        <div class="login-register-form content-form row">
+             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="register-form">
+                        <h4 class="main-title"><span class="fa fa-line-chart"></span> Publicar Producto</h4>
+                        
+                        <?php if(isset($mensaje)){echo $mensaje;}?>
+
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="form-group">
-                                    <input name="titulo" type="text" class="form-control" placeholder="Titulo">
-                                </div>
-                                <div class="form-group res-mg-t-15">
-                                    <textarea name="descripcion" placeholder="Descripción"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <select name="categoria" class="form-control">
-                                        <option value="none" selected="" disabled="">Categoría</option>
-                                        <option value="1">Categoría 1</option>
-                                        <option value="2">Categoría 2</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <input name="precio" type="number" class="form-control" placeholder="Precio Unitario">
-                                </div>
-                                <div class="form-group">
-                                    <input name="stock"  type="number" class="form-control" placeholder="Stock">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <span class="label-text">Categoria <span>*</span></span>
+                                <select  type="text" name="pais" class="input-info" value="">
 
                                 
-                                <input name="proveedor" type="text" hidden value="<?php echo $_GET['id']?>">
-                                
-                                
-                                <div class="form-group">
-                                    <input type="submit" name="btnSubirProducto" class="btn btn-primary btn-block waves-effect waves-light" value="Subir Producto">
-                                </div>
+                                   <optgroup label="prendas">
+                                    <option value="<?php if(isset($usuario)){echo $usuario['pais'];}?>">jeans</option>
+                                    <option value="">ropa de hombre</option>
+                                    <option value="">ropa de mujer</option>
+                                    <option value="">calzados</option>
+                                   </optgroup>
+                                    <optgroup label="automotriz">
+                                    <option value="">llantas</option>
+                                    <option value="">exterior</option>
+                                    <option value="">volantes</option>
+                                   </optgroup>
+
+                                </select>
                             </div>
-                        </div>
-                        <h3>Subir Imagenes</h3>
-                        <hr>
-                        <div class="form-group alert-up-pd">
-                            <div class="dz-message needsclick download-custom">
-                                <i class="fa fa-download edudropnone" aria-hidden="true"></i>
-                                <h2 class="edudropnone">Arrastra la imagen hasta aquí o haz click para subir.</h2>
-                                <p class="edudropnone"><span class="note needsclick">Solo la primera imagen subida <strong>será la de portada.</strong> las demas se agregarán al album.</span>
-                                </p>
-                                <input name="imageico" class="hd-pro-img" type="text" />
+
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <span class="label-text">Nombre <span>*</span></span>
+                                <input type="text" name="nombre" class="input-info" value="<?php if(isset($usuario)){echo $usuario['nombre'];}?>">
                             </div>
+
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <span class="label-text">Precio <span>*</span></span>
+                            <input type="text" name="email" class="input-info"value="<?php if(isset($usuario)){echo $usuario['correo'];}?>">  
+                            </div>
+
+                             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-12">
+                                <span class="label-text">Descripción <span>*</span></span>
+                                <textarea rows="4" type="text" name="apellido" class="form-control"></textarea> 
+
+                             </div>
+
+                          
                         </div>
-                    </form>
+                    
+
+                        <div class="group-button">
+                            <button type="submit" class="btn btn-info">Publicar <span class="fa fa-bullhorn" aria-hidden="true"></span></button>
+                        </div>        
+                    </div>
                 </div>
-            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <form id="registrar" name="registrar" method="POST" action="<?= base_url('Tienda/login') ?>">
+
+                <div class="register-form">
+                    <h4 class="main-title"><span class="fa fa-plus"></span> Agregar imagenes</h4>
+                    <?php if(isset($mensajeLogin)){echo $mensajeLogin;}?>
+                    
+                   
         </div>
     </div>
 </div>
 
+                        
+                          
+              
+            </div>
+
+            
+
+            </div>
+        </div>
+    </div>
+</div>
