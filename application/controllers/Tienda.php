@@ -83,10 +83,57 @@ class Tienda extends CI_Controller {
 			
 
 			$this->layout->view('login',compact('mensaje','usuario'));
+		
+
+		/* BOTON LOGIN */
+		}elseif(isset($_POST['btn_login'])){
+			
+			$mensajeLogin = "";
+			
+			$usuario = array(
+				'correo' 		=> $_POST['txt_correo'],
+				'pass'			=> $_POST['txt_pass']);
+			
+			
+			
+			//Validacion de Vacios
+			if($_POST['txt_correo']=="" or $_POST['txt_pass']==""){
+				$mensajeLogin = "
+					<div class='alert alert-danger alert-dismissible'>
+					  <a href='#' class='close' data-dismiss='alert' aria-label='close'><i class='fas fa-times'></i></a>
+					  <strong>Error!</strong> Existen campos en blanco
+					</div>";
+			//Validacion de Correo  Existente
+			}elseif(empty($row)){
+				$mensajeLogin = "
+					<div class='alert alert-danger alert-dismissible'>
+					  <a href='#' class='close' data-dismiss='alert' aria-label='close'><i class='fas fa-times'></i></a>
+					  <strong>Error!</strong> Usuario Incorrectos
+					</div>";
+				echo "<script>console.log( 'SE ENCONTRO CORREO' );</script>";
+	
+			}else{
+				//Registro del usuario 
+				$row = $this->usuario_model->getUsuario($usuario);
+				session_start(); 
+				redirect('/Tienda/index/');
+			}
+
+			$this->layout->view('login',compact('mensajeLogin'));
+			
+			
 		}else{
 			$this->layout->view('login');
 		}
+	
 	}
+	
+	
+	
+	
+	
+	
+		
 
 
 }

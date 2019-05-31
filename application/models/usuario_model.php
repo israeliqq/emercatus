@@ -14,6 +14,16 @@ class usuario_model extends CI_Model
 		return $this->db->insert('usuario', $usuario);
 	}
 
+
+	public function getUsuario($usuario)
+	{
+		$sql = $this->db->query("SELECT * FROM usuario where correo = '".$usuario['correo']."' and pass = '".$usuario['pass']."';");
+		return $sql->row();
+	}
+
+
+
+
 	public function UpdateProducto($ritmo, $fecha, $hora, $estado, $id)
 	{
 		$sql = "UPDATE batalla SET data = '".$ritmo."', fecha = '".$fecha."', hora = '".$hora."', estado = '".$estado."' WHERE id = '".$id."';";
@@ -27,13 +37,6 @@ class usuario_model extends CI_Model
 	}
 
 
-
-	public function getRitmoID($id)
-	{
-		$sql = $this->db->query("SELECT * FROM batalla where id = '".$id."';");
-		$row = $sql->row();
-		return $row;
-	}
 
 
 	public function getRitmoAlerta($fecha,$hora)

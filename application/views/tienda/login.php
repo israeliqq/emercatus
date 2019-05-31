@@ -5,24 +5,28 @@
         </div>
         <div class="login-register-form content-form row">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<form id="registrar" name="registrar" method="POST" action="<?= base_url('Tienda/login') ?>">
+
                 <div class="register-form">
                     <h4 class="main-title">Ingresar al Sistema</h4>
+					<?php if(isset($mensajeLogin)){echo $mensajeLogin;}?>
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <span class="label-text">Usuario/Correo *</span>
-                            <input type="text" class="input-info">
+                            <span class="label-text">Correo *</span>
+                            <input type="text" name="txt_correo" class="input-info">
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <span class="label-text">Password *</span>
-                            <input type="password" class="input-info">	
+                            <input type="password" name="txt_pass" class="input-info">	
 							<div class="text-right">
 							<a href="#">¿Has olvidado tu contraseña?</a>
 							</div>
 						</div>
                     </div>
 						
-                    <div class="group-button"><input type="button" class="btn btn-info" name="ingresar" value="Ingresar"></div>		
+                    <div class="group-button"><input type="submit" class="btn btn-info" name="btn_login" value="Ingresar"></div>		
                 </div>
+				</form>
             </div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<form id="registrar" name="registrar" method="POST" action="<?= base_url('Tienda/login') ?>">
