@@ -35,14 +35,14 @@ class Tienda extends CI_Controller {
 			if($_POST['nombre']=="" or $_POST['apellido']=="" or $_POST['email']=="" or  $_POST['pass1']==""){
 				$mensaje = "
 					<div class='alert alert-danger alert-dismissible'>
-					  <a href='#' class='close' data-dismiss='alert' aria-label='close'><i class='fas fa-times'></i></a>
+					  <a href='#' class='close' data-dismiss='alert' aria-label='close'><i class='fa fa-times'></i></a>
 					  <strong>Error!</strong> Existen campos en blanco
 					</div>";
 			//Validacion de Correo  Existente
 			}elseif($row > 0){
 				$mensaje = "
 					<div class='alert alert-danger alert-dismissible'>
-					  <a href='#' class='close' data-dismiss='alert' aria-label='close'><i class='fas fa-times'></i></a>
+					  <a href='#' class='close' data-dismiss='alert' aria-label='close'><i class='fa fa-times'></i></a>
 					  <strong>Error!</strong> El correo ingresado ya está registrado
 					</div>";
 				echo "<script>console.log( 'SE ENCONTRO CORREO' );</script>";
@@ -50,7 +50,7 @@ class Tienda extends CI_Controller {
 			}elseif($_POST['pass1'] != $_POST['pass2']){
 				$mensaje = "
 					<div class='alert alert-danger alert-dismissible'>
-					  <a href='#' class='close' data-dismiss='alert' aria-label='close'><i class='fas fa-times'></i></a>
+					  <a href='#' class='close' data-dismiss='alert' aria-label='close'><i class='fa fa-times'></i></a>
 					  <strong>Error!</strong> Las contraseñas ingresadas no coinciden
 					</div>";
 			}else{
@@ -62,14 +62,14 @@ class Tienda extends CI_Controller {
 					//autologin
 					$mensaje = "
 					<div class='alert alert-danger alert-dismissible'>
-					  <a href='#' class='close' data-dismiss='alert' aria-label='close'><i class='fas fa-times'></i></a>
+					  <a href='#' class='close' data-dismiss='alert' aria-label='close'><i class='fa fa-times'></i></a>
 					  <strong>Error!</strong> Registro Completado con Exito
 					</div>";
 					redirect('/Tienda/index/');
 				}else{
 					$mensaje = "
 					<div class='alert alert-danger alert-dismissible'>
-					  <a href='#' class='close' data-dismiss='alert' aria-label='close'><i class='fas fa-times'></i></a>
+					  <a href='#' class='close' data-dismiss='alert' aria-label='close'><i class='fa fa-times'></i></a>
 					  <strong>Error!</strong> Error al registrarse
 					</div>";
 				}
@@ -93,30 +93,35 @@ class Tienda extends CI_Controller {
 			$usuario = array(
 				'correo' 		=> $_POST['txt_correo'],
 				'pass'			=> $_POST['txt_pass']);
-			
-			
-			
+
 			//Validacion de Vacios
-			if($_POST['txt_correo']=="" or $_POST['txt_pass']==""){
-				$mensajeLogin = "
+			if(!($_POST['txt_correo']=="" or $_POST['txt_pass']=="")){
+				
+				$row = $this->usuario_model->getUsuario($usuario);		
+				if(empty($row)){
+					//Mensaje al no encontrar coicidencias en la BD
+					$mensajeLogin = "
 					<div class='alert alert-danger alert-dismissible'>
-					  <a href='#' class='close' data-dismiss='alert' aria-label='close'><i class='fas fa-times'></i></a>
-					  <strong>Error!</strong> Existen campos en blanco
-					</div>";
-			//Validacion de Correo  Existente
-			}elseif(empty($row)){
-				$mensajeLogin = "
-					<div class='alert alert-danger alert-dismissible'>
-					  <a href='#' class='close' data-dismiss='alert' aria-label='close'><i class='fas fa-times'></i></a>
+					  <a href='#' class='close' data-dismiss='alert' aria-label='close'><i class='fa fa-times'></i></a>
 					  <strong>Error!</strong> Usuario Incorrectos
 					</div>";
-				echo "<script>console.log( 'SE ENCONTRO CORREO' );</script>";
-	
+					echo "<script>console.log( 'NO SE ENCONTRO CORREOS' );</script>";
+
+				}else{
+					//Datos Correctos para la validación e inicio de sesion
+					session_start(); 
+					echo "<script>console.log( 'EXITO BD' );</script>";
+					redirect('/Tienda/index/');
+				}
 			}else{
-				//Registro del usuario 
-				$row = $this->usuario_model->getUsuario($usuario);
-				session_start(); 
-				redirect('/Tienda/index/');
+				//Mensaje para Registros Vacios
+				$mensajeLogin = "
+					<div class='alert alert-danger alert-dismissible'>
+					  <a href='#' class='close' data-dismiss='alert' aria-label='close'><i class='fa fa-times'></i></a>
+					  <strong>Error!</strong> Existen campos en blanco
+					</div>";
+					
+					//pasar datos por session
 			}
 
 			$this->layout->view('login',compact('mensajeLogin'));

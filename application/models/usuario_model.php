@@ -17,7 +17,8 @@ class usuario_model extends CI_Model
 
 	public function getUsuario($usuario)
 	{
-		$sql = $this->db->query("SELECT * FROM usuario where correo = '".$usuario['correo']."' and pass = '".$usuario['pass']."';");
+		$sql = $this->db->query("SELECT * FROM usuario where correo = '".$usuario['correo']."' and pass = '".$usuario['pass']."' LIMIT 1;");
+		echo "<script>console.log( '".$sql->row()."' );</script>";
 		return $sql->row();
 	}
 

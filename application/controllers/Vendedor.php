@@ -5,13 +5,12 @@ class Vendedor extends CI_Controller {
 
 	public function __construct(){
 		parent::__construct();
-		$this->layout->setLayout('tienda2');
+		$this->layout->setLayout('main');
 		date_default_timezone_set("Chile/Continental");
 	}
 
 	public function index()
 	{
-		$this->layout->setLayout('dashboard');
 		$this->layout->view('resumen');
 	}
 
@@ -63,11 +62,7 @@ class Vendedor extends CI_Controller {
 
 	public function ingresar_producto()
 	{
-		$this->layout->setLayout('dashboard');
-
 		if (isset($_POST['btnSubirProducto'])){
-
-
 
 			$producto = array(	
 				'nombre' 			=> $_POST['titulo'],

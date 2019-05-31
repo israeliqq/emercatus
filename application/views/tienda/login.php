@@ -26,10 +26,9 @@
 						
                     <div class="group-button"><input type="submit" class="btn btn-info" name="btn_login" value="Ingresar"></div>		
                 </div>
-				</form>
+				
             </div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-				<form id="registrar" name="registrar" method="POST" action="<?= base_url('Tienda/login') ?>">
 					<div class="register-form">
 						<h4 class="main-title">Crear Cuenta</h4>
 						
