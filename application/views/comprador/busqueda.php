@@ -22,7 +22,7 @@
 					<div class="product-item layout1  col-xs-12 col-sm-2 col-md-4 col-lg-4 no-padding">
 						<div class="product-inner equal-elem" style="height: 390px;">
 							<div class="thumb">
-								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span> Quick View</a>
+								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span>Vista rápida</a>
 								<a href="detail.html" class="thumb-link"><img src="<?php echo base_url();?>tools/images/product21.jpg" alt=""></a>
 							</div>
 							<div class="info">
@@ -45,9 +45,9 @@
 							</div>
 							<div class="group-button">
 								<div class="inner">
-									<a href="#" class="add-to-cart"><span class="text">ADD TO CART</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-									<a href="#" class="compare-button"><span class="icon"><i class="fa fa-exchange" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-									<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-heart-o" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+									<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
+									<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
+									<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
 								</div>
 							</div>
 						</div>
@@ -55,10 +55,10 @@
 					<div class="product-item layout1  col-xs-12 col-sm-2 col-md-4 col-lg-4 no-padding">
 						<div class="product-inner equal-elem" style="height: 390px;">
 							<ul class="group-flash">
-								<li><span class="new flash">NEW</span></li>
+								<li><span class="new flash">Nuevo</span></li>
 							</ul>											
 							<div class="thumb">
-								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span> Quick View</a>
+								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span>Vista rápida</a>
 								<a href="detail.html" class="thumb-link"><img src="<?php echo base_url();?>tools/images/product21.jpg" alt=""></a>
 							</div>
 							<div class="info">
@@ -80,9 +80,9 @@
 							</div>
 							<div class="group-button">
 								<div class="inner">
-								<a href="#" class="add-to-cart"><span class="text">ADD TO CART</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-exchange" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-heart-o" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+								<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
+								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
+								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
 								</div>
 							</div>
 						</div>
@@ -91,10 +91,10 @@
 						<div class="product-inner equal-elem" style="height: 390px;">
 							<ul class="group-flash">
 								<li><span class="sale flash">-50%</span></li>
-								<li><span class="best flash">Bestseller</span></li>
+								<li><span class="best flash">Mejor vendido</span></li>
 							</ul>
 							<div class="thumb">
-								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span> Quick View</a>
+								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span>Vista rápida</a>
 								<a href="detail.html" class="thumb-link"><img src="<?php echo base_url();?>tools/images/product21.jpg" alt=""></a>
 							</div>
 							<div class="info">
@@ -117,9 +117,9 @@
 							</div>
 							<div class="group-button">
 								<div class="inner">
-								<a href="#" class="add-to-cart"><span class="text">ADD TO CART</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-exchange" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-heart-o" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+								<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
+								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
+								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
 								</div>
 							</div>
 						</div>
@@ -127,7 +127,7 @@
 					<div class="product-item layout1  col-xs-12 col-sm-2 col-md-4 col-lg-4 no-padding">
 						<div class="product-inner equal-elem" style="height: 390px;">
 							<div class="thumb">
-								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span> Quick View</a>
+								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span>Vista rápida</a>
 								<a href="detail.html" class="thumb-link"><img src="<?php echo base_url();?>tools/images/product21.jpg" alt=""></a>
 							</div>
 							<div class="info">
@@ -139,9 +139,9 @@
 							</div>
 							<div class="group-button">
 								<div class="inner">
-								<a href="#" class="add-to-cart"><span class="text">ADD TO CART</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-exchange" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-heart-o" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+								<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
+								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
+								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
 								</div>
 							</div>
 						</div>
@@ -152,7 +152,7 @@
 								<li><span class="sale flash">-50%</span></li>
 							</ul>
 							<div class="thumb">
-								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span> Quick View</a>
+								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span>Vista rápida</a>
 								<a href="detail.html" class="thumb-link"><img src="<?php echo base_url();?>tools/images/product21.jpg" alt=""></a>
 							</div>
 							<div class="info">
@@ -175,9 +175,9 @@
 							</div>
 							<div class="group-button">
 								<div class="inner">
-								<a href="#" class="add-to-cart"><span class="text">ADD TO CART</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-exchange" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-heart-o" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+								<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
+								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
+								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
 								</div>
 							</div>
 						</div>
@@ -185,7 +185,7 @@
 					<div class="product-item layout1  col-xs-12 col-sm-2 col-md-4 col-lg-4 no-padding">
 						<div class="product-inner equal-elem" style="height: 390px;">
 							<div class="thumb">
-								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span> Quick View</a>
+								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span>Vista rápida</a>
 								<a href="detail.html" class="thumb-link"><img src="<?php echo base_url();?>tools/images/product21.jpg" alt=""></a>
 							</div>
 							<div class="info">
@@ -207,9 +207,9 @@
 							</div>
 							<div class="group-button">
 								<div class="inner">
-								<a href="#" class="add-to-cart"><span class="text">ADD TO CART</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-exchange" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-heart-o" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+								<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
+								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
+								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
 								</div>
 							</div>
 						</div>
@@ -217,7 +217,7 @@
 					<div class="product-item layout1  col-xs-12 col-sm-2 col-md-4 col-lg-4 no-padding">
 						<div class="product-inner equal-elem" style="height: 390px;">
 							<div class="thumb">
-								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span> Quick View</a>
+								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span>Vista rápida</a>
 								<a href="detail.html" class="thumb-link"><img src="<?php echo base_url();?>tools/images/product21.jpg" alt=""></a>
 							</div>
 							<div class="info">
@@ -229,9 +229,9 @@
 							</div>
 							<div class="group-button">
 								<div class="inner">
-									<a href="#" class="add-to-cart"><span class="text">ADD TO CART</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-									<a href="#" class="compare-button"><span class="icon"><i class="fa fa-exchange" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-									<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-heart-o" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+									<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
+									<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
+									<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
 								</div>
 							</div>
 						</div>
@@ -239,10 +239,10 @@
 					<div class="product-item layout1  col-xs-12 col-sm-2 col-md-4 col-lg-4 no-padding">
 						<div class="product-inner equal-elem" style="height: 390px;">
 							<ul class="group-flash">
-								<li><span class="new flash">NEW</span></li>
+								<li><span class="new flash">Nuevo</span></li>
 							</ul>											
 							<div class="thumb">
-								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span> Quick View</a>
+								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span>Vista rápida</a>
 								<a href="detail.html" class="thumb-link"><img src="<?php echo base_url();?>tools/images/product21.jpg" alt=""></a>
 							</div>
 							<div class="info">
@@ -264,9 +264,9 @@
 							</div>
 							<div class="group-button">
 								<div class="inner">
-								<a href="#" class="add-to-cart"><span class="text">ADD TO CART</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-exchange" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-heart-o" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+								<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
+								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
+								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
 								</div>
 							</div>
 						</div>
@@ -274,7 +274,7 @@
 					<div class="product-item layout1  col-xs-12 col-sm-2 col-md-4 col-lg-4 no-padding">
 						<div class="product-inner equal-elem" style="height: 390px;">
 							<div class="thumb">
-								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span> Quick View</a>
+								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span>Vista rápida</a>
 								<a href="detail.html" class="thumb-link"><img src="<?php echo base_url();?>tools/images/product21.jpg" alt=""></a>
 							</div>
 							<div class="info">
@@ -286,9 +286,9 @@
 							</div>
 							<div class="group-button">
 								<div class="inner">
-									<a href="#" class="add-to-cart"><span class="text">ADD TO CART</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-									<a href="#" class="compare-button"><span class="icon"><i class="fa fa-exchange" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-									<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-heart-o" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+									<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
+									<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
+									<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
 								</div>
 							</div>
 						</div>
@@ -296,10 +296,10 @@
 					<div class="product-item layout1  col-xs-12 col-sm-2 col-md-4 col-lg-4 no-padding">
 						<div class="product-inner equal-elem" style="height: 390px;">
 							<ul class="group-flash">
-								<li><span class="new flash">NEW</span></li>
+								<li><span class="new flash">Nuevo</span></li>
 							</ul>											
 							<div class="thumb">
-								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span> Quick View</a>
+								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span>Vista rápida</a>
 								<a href="detail.html" class="thumb-link"><img src="<?php echo base_url();?>tools/images/product21.jpg" alt=""></a>
 							</div>
 							<div class="info">
@@ -311,9 +311,9 @@
 							</div>
 							<div class="group-button">
 								<div class="inner">
-								<a href="#" class="add-to-cart"><span class="text">ADD TO CART</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-exchange" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-heart-o" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+								<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
+								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
+								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
 								</div>
 							</div>
 						</div>
@@ -321,7 +321,7 @@
 					<div class="product-item layout1  col-xs-12 col-sm-2 col-md-4 col-lg-4 no-padding">
 						<div class="product-inner equal-elem" style="height: 390px;">
 							<div class="thumb">
-								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span> Quick View</a>
+								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span>Vista rápida</a>
 								<a href="detail.html" class="thumb-link"><img src="<?php echo base_url();?>tools/images/product21.jpg" alt=""></a>
 							</div>
 							<div class="info">
@@ -333,9 +333,9 @@
 							</div>
 							<div class="group-button">
 								<div class="inner">
-									<a href="#" class="add-to-cart"><span class="text">ADD TO CART</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-									<a href="#" class="compare-button"><span class="icon"><i class="fa fa-exchange" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-									<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-heart-o" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+									<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
+									<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
+									<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
 								</div>
 							</div>
 						</div>
@@ -343,10 +343,10 @@
 					<div class="product-item layout1 col-xs-12 col-sm-2 col-md-4 col-lg-4 no-padding">
 						<div class="product-inner equal-elem" style="height: 390px;">
 							<ul class="group-flash">
-								<li><span class="new flash">NEW</span></li>
+								<li><span class="new flash">Nuevo</span></li>
 							</ul>											
 							<div class="thumb">
-								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span> Quick View</a>
+								<a href="#" class="quickview-button"><span class="icon"><i class="fa fa-eye" aria-hidden="true"></i></span>Vista rápida</a>
 								<a href="detail.html" class="thumb-link"><img src="<?php echo base_url();?>tools/images/product21.jpg" alt=""></a>
 							</div>
 							<div class="info">
@@ -358,9 +358,9 @@
 							</div>
 							<div class="group-button">
 								<div class="inner">
-								<a href="#" class="add-to-cart"><span class="text">ADD TO CART</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-exchange" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-heart-o" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+								<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
+								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
+								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
 								</div>
 							</div>
 						</div>
@@ -371,10 +371,10 @@
 						<li><a href="#" class="page-number current">1</a></li>
 						<li><a href="#" class="page-number">2</a></li>
 						<li><a href="#" class="page-number">3</a></li>
-						<li><a href="#" class="nav-button">Next</a></li>
+						<li><a href="#" class="nav-button">Siguiente</a></li>
 					</ul>
 				</div>
-				<span class="note">Showing 1-8 of 12 result</span>
+				<span class="note">1-8 de 12 resultados</span>
 			</div>
 
 		</div>
