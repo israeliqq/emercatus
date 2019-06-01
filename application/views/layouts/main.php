@@ -19,6 +19,9 @@
 <link href="<?php echo base_url();?>tools/css/customs-css3.css"           rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/emercatus.css"              rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+<link rel="stylesheet" href="<?php echo base_url();?>tools/css/dropzone_real.css">
+<script src="<?php echo base_url();?>tools/js/dropzone_real.js"></script>
+<script src="<?php echo base_url();?>tools/js/dropzone-config.js"></script>
 <!-- FIN HOJAS DE ESTILOS -->
 
 </head>
