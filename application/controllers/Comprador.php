@@ -15,6 +15,13 @@ class Comprador extends CI_Controller {
 		$this->layout->view('index');
 	}
 
+	public function miscompras()
+	{
+		$this->layout->view('miscompras');
+	}
+
+
+
 	public function carrito()
 	{
 		$this->layout->view('carrito');

@@ -60,7 +60,7 @@ class Vendedor extends CI_Controller {
 
 
 
-	public function ingresar_producto()
+	public function publicar()
 	{
 		if (isset($_POST['btnSubirProducto'])){
 
@@ -74,9 +74,9 @@ class Vendedor extends CI_Controller {
 			);	
 			$bandera = $this->producto_model->InsertProducto($producto);
 			echo '<h1>'.$bandera.'impreso despues del insert</h1>';
-			$this->layout->view('listar_productos');
+			$this->layout->view(',misproductos');
 		}else{
-			$this->layout->view('ingresar_producto');
+			$this->layout->view('publicar');
 		}
 	}
 
@@ -108,15 +108,13 @@ class Vendedor extends CI_Controller {
 
 	}
 
-	public function listar_productos($prov)
+	public function misproductos()
 	{
-		$this->layout->setLayout('dashboard');
-		$data['prov']		= $prov;
-		$datos['producto']	= $this->producto_model->getProductoProveedor($prov);
+		//$data['prov']		= $prov;
+		//$datos['producto']	= $this->producto_model->getProductoProveedor($prov);
 
-		$this->layout->view('listar_productos',compact('datos'));
-
-		//$this->load->view('tienda/index');
+		//$this->layout->view('misproductos',compact('datos'));
+		$this->layout->view('misproductos');;
 	}
 
 	public function resumen()

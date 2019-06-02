@@ -15,6 +15,13 @@ class Tienda extends CI_Controller {
 	}
 
 
+	public function cerrar()
+	{
+		session_destroy(); 
+		redirect('/Tienda/index/');
+	}
+
+
 	public function login()
 	{
 		/* BOTON REGISTRARSE */
@@ -110,7 +117,7 @@ class Tienda extends CI_Controller {
 				}else{
 					//Datos Correctos para la validación e inicio de sesion
 					session_start(); 
-					echo "<script>console.log( 'EXITO BD' );</script>";
+					$_SESSION["usuario"] = $row->nombre;
 					redirect('/Tienda/index/');
 				}
 			}else{

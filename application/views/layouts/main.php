@@ -50,7 +50,11 @@
 					</li>
 				</ul>
 				<ul class="menu-topbar top-links">
-					<li><a href="login.html">Registrarse / Iniciar Sesión</a></li>
+					<?php if(isset($_SESSION["usuario"])){ ?>
+						<li><?php echo strtoupper($_SESSION["usuario"])." "; ?><a href="<?php echo base_url("tienda/cerrar");?>"> Cerrar Sesión</a></li>		
+					<?php }else{?>
+						<li><a href="<?php echo base_url("tienda/login");?>">Registrarse / Iniciar Sesión</a></li>
+					<?php }?>
 				</ul>
 				<ul class="list-socials">
 					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -69,7 +73,7 @@
 						<div class="row">
 							<div class="col-lg-2 col-md-3 col-sm-3 col-xs-12  left-content">
 								<div class="logo">
-									<a href="index.html"><img src="<?php echo base_url();?>tools/images/main-logo.jpg" alt=""></a>
+									<a href="<?php echo base_url("tienda/index");?>"><img src="<?php echo base_url("tools/images/main-logo.jpg");?>" alt=""></a>
 								</div>
 							</div>
 							<div class="col-lg-8 col-md-4 col-sm-4 col-xs-6 midle-content">
@@ -88,11 +92,11 @@
 												<a href="#" class="header-top-menu-mobile"><span class="fa fa-cog" aria-hidden="true"></span></a>
 												<ul id="menu-main-menu" class="main-menu clone-main-menu ovic-clone-mobile-menu box-has-content">
 													<li class="menu-item">
-														<a href="index.html" class="kt-item-title ovic-menu-item-title" title="Home">NEGOCIACIONES</a>
+														<a  href="<?php echo base_url("comprador/negociaciones");?>" class="kt-item-title ovic-menu-item-title" title="Home">NEGOCIACIONES</a>
 													</li>
-													<li class="menu-item"><a href="contact.html">MIS PRODUCTOS</a></li>
-													<li class="menu-item"><a href="contact.html">PUBLICAR</a></li>
-													<li class="menu-item"><a href="contact.html">MIS COMPRAS</a></li>
+													<li class="menu-item"><a href="<?php echo base_url("vendedor/misproductos");?>">MIS PRODUCTOS</a></li>
+													<li class="menu-item"><a href="<?php echo base_url("vendedor/publicar");?>">PUBLICAR</a></li>
+													<li class="menu-item"><a href="<?php echo base_url("comprador/miscompras");?>">MIS COMPRAS</a></li>
 													
 
 												</ul>
@@ -107,7 +111,7 @@
 										<div class="minicart ">
 											<div class="cart-block  box-has-content">
 												<a href="shopping-cart.html" class="cart-icon"><i class="fa fa-shopping-basket" aria-hidden="true"></i><span class="count">0</span></a>
-												<span class="total-price"><span class="text">Cart: </span>$0.00</span>
+												<span class="total-price"><span class="text">Pendientes: </span>1</span>
 											</div>
 											<div class="cart-inner cart-empty">
 												<h5 class="title">You have <span class="count-item">0</span> item(s) in your cart</h5>
@@ -225,7 +229,7 @@
 										<li class="more-item hidden-item"> <a href="#" class="ovic-menu-item-title" title="Headphone"><span class="icon"><img src="<?php echo base_url();?>tools/images/icon8.png" alt=""></span> Telefonía</a></li>
 									</ul>
 									<div class="view-all-categori">
-										<a href="#" class="button">All Categories <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+										<a href="#" class="button">Mostras Más <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 									</div>
 								</div>
 							</div>
@@ -327,10 +331,10 @@
 									<div class="widget widget-custom-menu">
 										<h3 class="widgettitle">Mi Cuenta</h3>
 										<ul >
-											<li><a href="login.html">Iniciar Sesión</a></li>
-											<li><a href="shopping-cart.html">Mis Compras</a></li>
-											<li><a href="#">Mis Ventas</a></li>
-											<li><a href="#">Ayuda</a></li>
+											<li><a href="<?php echo base_url("tienda/login");?>">Iniciar Sesión</a></li>
+											<li><a href="<?php echo base_url("tienda/login");?>">Mis Compras</a></li>
+											<li><a href="<?php echo base_url("tienda/login");?>">Mis Ventas</a></li>
+											<li><a href="<?php echo base_url("tienda/login");?>">Ayuda</a></li>
 										</ul>
 									</div>
 								</div>
@@ -338,11 +342,11 @@
 									<div class="widget widget-custom-menu">
 										<h3 class="widgettitle">Información</h3>
 										<ul >
-											<li><a href="#">Información de Transportes</a></li>
-											<li><a href="#">Politicas de Privacidad</a></li>
-											<li><a href="#">Terminos y Condiciones</a></li>
-											<li><a href="contact.html">Contacto</a></li>
-											<li><a href="#">Mapa del Sitio</a></li>
+											<li><a href="<?php echo base_url("tienda/login");?>">Información de Transportes</a></li>
+											<li><a href="<?php echo base_url("tienda/login");?>">Politicas de Privacidad</a></li>
+											<li><a href="<?php echo base_url("tienda/login");?>">Terminos y Condiciones</a></li>
+											<li><a href="<?php echo base_url("tienda/login");?>">Contacto</a></li>
+											<li><a href="<?php echo base_url("tienda/login");?>">Mapa del Sitio</a></li>
 										</ul>
 									</div>
 								</div>
@@ -350,11 +354,11 @@
 									<div class="widget widget-custom-menu">
 										<h3 class="widgettitle">Servicios al Clientes</h3>
 										<ul >
-											<li><a href="#">Envios y Devoluciones</a></li>
-											<li><a href="#">Compras Seguras</a></li>
-											<li><a href="#">Envios Internacionales</a></li>
-											<li><a href="#">Afiliados</a></li>
-											<li><a href="contact.html">Contacto</a></li>
+											<li><a href="<?php echo base_url("tienda/login");?>">Envios y Devoluciones</a></li>
+											<li><a href="<?php echo base_url("tienda/login");?>">Compras Seguras</a></li>
+											<li><a href="<?php echo base_url("tienda/login");?>">Envios Internacionales</a></li>
+											<li><a href="<?php echo base_url("tienda/login");?>">Afiliados</a></li>
+											<li><a href="<?php echo base_url("tienda/login");?>">Contacto</a></li>
 										</ul>
 									</div>
 								</div>
@@ -362,11 +366,11 @@
 									<div class="widget widget-custom-menu">
 										<h3 class="widgettitle">Pago y Envio</h3>
 										<ul >
-											<li><a href="#">Terminos de Uso</a></li>
-											<li><a href="#">Metodos de Pago</a></li>
-											<li><a href="#">Guias de Envio</a></li>
-											<li><a href="#">Ubicaciones de envio</a></li>
-											<li><a href="#">Tiempos de entrega</a></li>
+											<li><a href="<?php echo base_url("tienda/login");?>">Terminos de Uso</a></li>
+											<li><a href="<?php echo base_url("tienda/login");?>">Metodos de Pago</a></li>
+											<li><a href="<?php echo base_url("tienda/login");?>">Guias de Envio</a></li>
+											<li><a href="<?php echo base_url("tienda/login");?>">Ubicaciones de envio</a></li>
+											<li><a href="<?php echo base_url("tienda/login");?>">Tiempos de entrega</a></li>
 										</ul>
 									</div>
 								</div>
@@ -391,7 +395,7 @@
 						</div>
 					</div>
 					
-					<br>
+					
 				</div>
 			</div>
         </div>

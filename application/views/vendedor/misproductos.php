@@ -1,6 +1,4 @@
-<div class="breadcome-area">
-    <div class="container-fluid">
-        <div class="breadcome-list single-page-breadcome">
+
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h3>Listar tus Productos</h3>
@@ -53,8 +51,5 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
 
 
