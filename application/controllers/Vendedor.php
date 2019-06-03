@@ -76,7 +76,8 @@ class Vendedor extends CI_Controller {
 			echo '<h1>'.$bandera.'impreso despues del insert</h1>';
 			$this->layout->view(',misproductos');
 		}else{
-			$this->layout->view('publicar');
+			$categorias = $this->producto_model->getCategoria();
+			$this->layout->view('publicar', compact('categorias'));
 		}
 	}
 

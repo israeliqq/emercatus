@@ -9,6 +9,14 @@ class producto_model extends CI_Model
 		return $this->db->query($sql)->result();
 	}
 
+
+	public function getCategoria()
+	{
+		$sql = "SELECT * FROM `subcategoria` inner JOIN categoria on subcategoria.fk_categoria = categoria.id_categoria";
+		return $this->db->query($sql)->result();
+	}
+
+
 	public function getProductoProveedor($prov)
 	{
 		$sql = "SELECT * FROM producto WHERE proveedor_id = '".$prov."'";
