@@ -47,8 +47,8 @@
 					</div>
 
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-						<span class="label-text">Nombre <span>*</span></span>
-						<input type="text" name="nombre" maxlength="60" class="input-info" required="" value="<?php if(isset($usuario)){echo $usuario['cbo_nombre'];}?>">
+						<span class="label-text">Titulo <span>*</span></span>
+						<input type="text" name="nombre" maxlength="60" class="input-info" required="" value="<?php if(isset($usuario)){echo $usuario['cbo_titulo'];}?>">
 					</div>
 
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -72,7 +72,7 @@
 					<h4 class="main-title"><span class="fa fa-plus"></span> Agregar imagenes</h4>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-						<form class="dropzone needsclik dz-clikable" name="formu" id="subirimagen" action="<?= base_url('vendedor/publicar')?>" style="background-color: white;border-color:#E77707;" >
+						<form class="dropzone needsclik dz-clikable" name="formu" id="subirimagen" action="<?= base_url('vendedor/publicar')?>" style="background-color: white;border-color:#f27a23;" >
 							<div class="dz-message needsclik" >
 								<center><span class="fa fa-picture-o"></span></center>
 								<br>
@@ -81,7 +81,7 @@
 						</form>
 
 						<div class="group-button">
-							<button type="submit" class="btn btn-info btn-block">Publicar <span class="fa fa-bullhorn" aria-hidden="true"></span></button>
+							<button type="submit" class="btn btn-info btn-block" style="background-color:#f27a23;border-color:#f27a23;">Publicar <span class="fa fa-bullhorn" aria-hidden="true"></span></button>
 						</div>
 					</div>
 				</div>

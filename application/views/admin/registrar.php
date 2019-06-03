@@ -25,7 +25,24 @@
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                             <span class="label-text">Pais</span>
-                            <input type="text" class="input-info">	
+                            <select name="cbo_pais" id="">
+                                <optgroup label="Sudamerica">
+                                    <option value="">Chile</option>
+                                    <option value="">Brasil</option>
+                                    <option value="">Argentina</option>
+                                    <option value="">Perú</option>
+                                    <option value="">Paraguay</option>
+                                    <option value="">Uruguay</option>
+                                    <option value="">Colombia</option>
+                                    <option value="">Bolivia</option>
+                                    <option value="">Ecuador</option>
+                                    <option value="">Venenzuela</option>
+                                    <option value="">Guyana</option>
+                                    <option value="">Surinam</option>
+                                         
+                                    
+                                </optgroup>
+                            </select>
                         </div>
                     </div>	
                     <span class="label-text">Email<span>*</span></span>
