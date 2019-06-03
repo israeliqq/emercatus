@@ -1,78 +1,92 @@
-<div class="breadcome-area">
-    <div class="container-fluid">
-        <div class="breadcome-list single-page-breadcome">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h3>Listar tus Productos</h3>
-                    <hr>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                   
-                            <table  id="example" class="table table-striped table-bordered">
-                                <thead>
-                                    <tr>
-                                        <th data-field="state" data-checkbox="true"></th>
-                                        <th data-field="id">ID</th>
-                                        <th data-field="name" data-editable="true">Titulo</th>
-                                        <th data-field="email" data-editable="true">Descripción</th>
-                                        <th data-field="phone" data-editable="true">Precio</th>
-                                        <th data-field="complete">Stock</th>
-                                        <th data-field="task" data-editable="true">Proveedor</th>
-                                        <th data-field="date" data-editable="true">Categoría</th>
-                                        <th data-field="price" data-editable="true">Evaluación</th>
-                                        <th data-field="action">Acciones</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td></td>
-                                        <td>1</td>
-                                        <td>Web Development</td>
-                                        <td>admin@uttara.com</td>
-                                        <td>+8801962067309</td>
-                                        <td class="datatable-ct"><span class="pie">1/6</span>
-                                        </td>
-                                        <td>10%</td>
-                                        <td>Jul 14, 2017</td>
-                                        <td>$5455</td>
-                                        <td class="datatable-ct"><i class="fa fa-check"></i>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td>13</td>
-                                        <td>Education</td>
-                                        <td>john@example.com</td>
-                                        <td>+8801962067471</td>
-                                        <td class="datatable-ct"><span class="pie">2,7</span>
-                                        </td>
-                                        <td>15%</td>
-                                        <td>Feb 6, 2016</td>
-                                        <td>$456456</td>
-                                        <td class="datatable-ct"><i class="fa fa-check"></i>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td>21</td>
-                                        <td>Jquery Advance</td>
-                                        <td>hasad@uth.com</td>
-                                        <td>+8801962067301</td>
-                                        <td class="datatable-ct"><span class="pie">2,7</span>
-                                        </td>
-                                        <td>15%</td>
-                                        <td>Jun 6, 2013</td>
-                                        <td>$4565656</td>
-                                        <td class="datatable-ct"><i class="fa fa-check"></i>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                   
-                </div>
+<div class="container">
+    
+     <hgroup class="mb20"><h1>Mis Productos</h1></hgroup>
+    <br>
+      
+
+    <section class="col-xs-12 col-sm-6 col-md-12">
+        <article  class="search-result row" >
+
+               <div class="col-xs-12 col-sm-12 col-md-3">
+                     <a href="#" title="Lorem ipsum" class="thumbnail"><img src="<?php echo base_url();?>tools/images/product11.jpg" alt="Lorem ipsum" /></a>
+              </div>
+
+
+            <div class="col-xs-12 col-sm-12 col-md-2">
+                <ul class="meta-search">
+                    <li><i class="fa fa-calendar"></i> <span>02/15/2014</span></li>
+                    <li><i class="fa fa-clock-o"></i> <span>4:28 pm</span></li>
+                    <br>
+                    <div>
+                        <button class="btn btn-success" ><span class="fa fa-pencil-square-o"> Modificar</span></button>
+                    </div>
+                    <br>
+                    <div><button class="btn btn-danger" ><span class="fa fa-trash"> Eliminar </span></button>
+                    </div>
+                    
+                </ul>
             </div>
-        </div>
-    </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-7 excerpet">
+                <h1>Descripción</h1>
+                <h3><a href="#" title="">Voluptatem, exercitationem, suscipit, distinctio</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, exercitationem, suscipit, distinctio, qui sapiente aspernatur molestiae non corporis magni sit sequi iusto debitis delectus doloremque.</p>                        
+               
+            </div>
+            <span class="clearfix borda"></span>
+        </article>
+
+        <article class="search-result row">
+            <div class="col-xs-12 col-sm-12 col-md-3">
+                <a href="#" title="Lorem ipsum" class="thumbnail"><img src="<?php echo base_url();?>tools/images/product9.jpg" alt="Lorem ipsum" /></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2">
+                <ul class="meta-search">
+                    <li><i class="fa fa-calendar"></i> <span>02/13/2014</span></li>
+                    <li><i class="fa fa-clock-o"></i> <span>8:32 pm</span></li>
+                    <br>
+                    <div>
+                        <button class="btn btn-success" ><span class="fa fa-pencil-square-o"> Modificar</span></button>
+                    </div>
+                    <br>
+                    <div><button class="btn btn-danger" ><span class="fa fa-trash"> Eliminar </span></button>
+                    </div>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-7">
+                 <h1>Descripción</h1>
+                <h3><a href="#" title="">Voluptatem, exercitationem, suscipit, distinctio</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, exercitationem, suscipit, distinctio, qui sapiente aspernatur molestiae non corporis magni sit sequi iusto debitis delectus doloremque.</p>                        
+               
+            </div>
+            <span class="clearfix borda"></span>
+        </article>
+
+        <article class="search-result row">
+            <div class="col-xs-12 col-sm-12 col-md-3">
+                <a href="#" title="Lorem ipsum" class="thumbnail"><img src="<?php echo base_url();?>tools/images/product8.jpg" alt="Lorem ipsum" /></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2">
+                <ul class="meta-search">
+                    <li><i class="fa fa-calendar"></i> <span>01/11/2014</span></li>
+                    <li><i class="fa fa-clock-o"></i> <span>10:13 am</span></li>
+                    <br>
+                    <div>
+                        <button class="btn btn-success" ><span class="fa fa-pencil-square-o"> Modificar</span></button>
+                    </div>
+                    <br>
+                    <div><button class="btn btn-danger" ><span class="fa fa-trash"> Eliminar </span></button>
+                    </div>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-7">
+                 <h1>Descripción</h1>
+                <h3><a href="#" title="">Voluptatem, exercitationem, suscipit, distinctio</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, exercitationem, suscipit, distinctio, qui sapiente aspernatur molestiae non corporis magni sit sequi iusto debitis delectus doloremque.</p>                        
+                
+            </div>
+            <span class="clearfix border"></span>
+        </article>          
+
+    </section>
 </div>
-
-
