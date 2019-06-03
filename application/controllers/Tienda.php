@@ -21,6 +21,11 @@ class Tienda extends CI_Controller {
 		redirect('/Tienda/index/');
 	}
 	
+	public function recuperar()
+	{ 
+		$this->layout->view('recuperar');
+	}
+	
 	public function terminos()
 	{ 
 		$this->layout->view('terminosycondiciones');
