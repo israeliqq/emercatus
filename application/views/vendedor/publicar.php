@@ -1,4 +1,4 @@
- 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <div class="main-content shop-page login-page">
     <div class="container">
         <div class="breadcrumbs">
@@ -48,17 +48,17 @@
 
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 						<span class="label-text">Nombre <span>*</span></span>
-						<input type="text" name="nombre" class="input-info" value="<?php if(isset($usuario)){echo $usuario['nombre'];}?>">
+						<input type="text" name="nombre" maxlength="60" class="input-info" required="" value="<?php if(isset($usuario)){echo $usuario['cbo_nombre'];}?>">
 					</div>
 
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 						<span class="label-text">Precio <span>*</span></span>
-						<input placeholder="$" type="text" name="email" class="input-info"value="<?php if(isset($usuario)){echo $usuario['correo'];}?>">  
+						<input type="text" onkeypress='return validaNumericos(event)' class="input-info" maxlength="10" name="cbo_precio" />
 					</div>
 
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-12">
 						<span class="label-text">Descripción <span>*</span></span>
-						<textarea rows="4" type="text" name="apellido" class="form-control"></textarea> 
+						<textarea rows="4" maxlength="150" type="text" required="" name="cbo_descripcion" class="form-control" style="background-color: #f8f8f8"></textarea> 
 					</div>
 			
 				</div>
@@ -71,11 +71,15 @@
 				<div class="register-form">
 					<h4 class="main-title"><span class="fa fa-plus"></span> Agregar imagenes</h4>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<form class="dropzone needsclik dz-clikable" id="subirimagen" action="receptor.php" style="background-color: white;border-color:#E77707;" >
-							<div class="dz-message needsclik">
+
+						<form class="dropzone needsclik dz-clikable" name="formu" id="subirimagen" action="<?= base_url('vendedor/publicar')?>" style="background-color: white;border-color:#E77707;" >
+							<div class="dz-message needsclik" >
+								<center><span class="fa fa-picture-o"></span></center>
+								<br>
 								Suelte los archivos aquí o haga clic para subir. 
 							</div> 
 						</form>
+
 						<div class="group-button">
 							<button type="submit" class="btn btn-info btn-block">Publicar <span class="fa fa-bullhorn" aria-hidden="true"></span></button>
 						</div>
@@ -140,6 +144,40 @@
 	function hide(elem) { elem.style.display = 'none'; }
 
 	function show(elem) { elem.style.display = 'inline'; }
-
-
 </script>
+
+<script>
+
+	Dropzone.autoDiscover = false;
+	
+new Dropzone('#formu', {
+	autoProcessQueue:true,
+	paramName: "subirimagen",
+	uploadMultiple: false,
+	addRemoveLinks: true,
+	maxFiles: 1,
+	acceptedFiles: "image/jpeg,image/jpg,image/png,image/gif",
+	parallelUploads: 1,
+	init: function() {
+		"use strict";
+		var myDropzone = this;
+	  
+		myDropzone.on("successnction(files,response)"{
+		  var respuesta = response;
+		  if (respuesta.estado == "error") {
+			  alert(respuesta.mensaje);
+		  }
+		});
+	}</script>
+
+
+
+<script>
+function validaNumericos(event) {
+    if(event.charCode >= 48 && event.charCode <= 57){
+      return true;
+     }
+     return false;        
+} 
+</script>
+	 

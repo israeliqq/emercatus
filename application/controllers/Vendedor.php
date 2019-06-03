@@ -9,10 +9,12 @@ class Vendedor extends CI_Controller {
 		date_default_timezone_set("Chile/Continental");
 	}
 
+
 	public function index()
 	{
 		$this->layout->view('resumen');
 	}
+
 
 	public function upload()
 	{
@@ -26,6 +28,16 @@ class Vendedor extends CI_Controller {
 				echo "failed to upload file(s)";
 			}
 		}
+	}
+
+	public function guardar()
+	{
+
+    $ruta="../images/uploads";
+    $nombre_archivo=$_FILES['file']{'name'};
+    move_uploaded_file($_FILES['file'],$ruta,$nombre_archivo);
+    
+
 	}
 
 	public function remove()
@@ -52,6 +64,10 @@ class Vendedor extends CI_Controller {
 		header("Content-type: application/json");
 		echo json_encode($files);
 	}
+
+
+   
+
 
 
 

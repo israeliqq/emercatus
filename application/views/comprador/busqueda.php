@@ -46,8 +46,8 @@
 							<div class="group-button">
 								<div class="inner">
 									<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-									<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-									<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+									<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Enviar mensaje</span></a>
+									<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Compartir</span></a>
 								</div>
 							</div>
 						</div>
@@ -81,8 +81,8 @@
 							<div class="group-button">
 								<div class="inner">
 								<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Enviar mensaje</span></a>
+								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Compartir</span></a>
 								</div>
 							</div>
 						</div>
@@ -118,8 +118,8 @@
 							<div class="group-button">
 								<div class="inner">
 								<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Enviar mensaje</span></a>
+								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Compartir</span></a>
 								</div>
 							</div>
 						</div>
@@ -140,8 +140,8 @@
 							<div class="group-button">
 								<div class="inner">
 								<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Enviar mensaje</span></a>
+								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Compartir</span></a>
 								</div>
 							</div>
 						</div>
@@ -176,8 +176,8 @@
 							<div class="group-button">
 								<div class="inner">
 								<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Enviar mensaje</span></a>
+								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Compartir</span></a>
 								</div>
 							</div>
 						</div>
@@ -208,8 +208,8 @@
 							<div class="group-button">
 								<div class="inner">
 								<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Enviar mensaje</span></a>
+								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Compartir</span></a>
 								</div>
 							</div>
 						</div>
@@ -230,8 +230,8 @@
 							<div class="group-button">
 								<div class="inner">
 									<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-									<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-									<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+									<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Enviar mensaje</span></a>
+									<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Compartir</span></a>
 								</div>
 							</div>
 						</div>
@@ -265,8 +265,8 @@
 							<div class="group-button">
 								<div class="inner">
 								<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Enviar mensaje</span></a>
+								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Compartir</span></a>
 								</div>
 							</div>
 						</div>
@@ -287,8 +287,8 @@
 							<div class="group-button">
 								<div class="inner">
 									<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-									<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-									<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+									<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Enviar mensaje</span></a>
+									<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Compartir</span></a>
 								</div>
 							</div>
 						</div>
@@ -312,8 +312,8 @@
 							<div class="group-button">
 								<div class="inner">
 								<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Enviar mensaje</span></a>
+								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Compartir</span></a>
 								</div>
 							</div>
 						</div>
@@ -334,8 +334,8 @@
 							<div class="group-button">
 								<div class="inner">
 									<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-									<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-									<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+									<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Enviar mensaje</span></a>
+									<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Compartir</span></a>
 								</div>
 							</div>
 						</div>
@@ -359,8 +359,8 @@
 							<div class="group-button">
 								<div class="inner">
 								<a href="#" class="add-to-cart"><span class="text">Cotizar</span><span class="icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></span></a>
-								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Add to Compare</span></a>
-								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Add to Wishlist</span></a>
+								<a href="#" class="compare-button"><span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i></span><span class="text">Enviar mensaje</span></a>
+								<a href="#" class="wishlist-button"><span class="icon"><i class="fa fa-share-alt" aria-hidden="true"></i></span><span class="text">Compartir</span></a>
 								</div>
 							</div>
 						</div>
