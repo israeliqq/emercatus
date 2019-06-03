@@ -4,24 +4,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title> Emercatus</title>
 
+
+
+ 
+<!-- FAVICON -->
+<link rel="shortcut icon" href="<?php echo base_url("tools/images/favicon.ico");?>" type="image/x-icon">
+
+
+<!-- COLOR BARRA DE NAVEGADOR WEB -->
+<meta name="theme-color" content="#F27A23">
+<meta name="msapplication-TileColor" content="#F27A23">
+
 <!-- HOJA DE ESTILOS -->
 <link href="<?php echo base_url();?>tools/css/bootstrap.min.css"          rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/owl.carousel.min.css"       rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/font-awesome.min.css"       rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/animate.min.css"            rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/jquery-ui.min.css"          rel="stylesheet" type="text/css">
-
-<link href="tools/css/magnific-popup.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 <link href="<?php echo base_url();?>tools/css/jquery.scrollbar.min.css"   rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/chosen.min.css"             rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/ovic-mobile-menu.css"       rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/style.css"                  rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/customs-css3.css"           rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/emercatus.css"              rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
 <link rel="stylesheet" href="<?php echo base_url();?>tools/css/dropzone_real.css">
-<script src="<?php echo base_url();?>tools/js/dropzone_real.js"></script>
-<script src="<?php echo base_url();?>tools/js/dropzone-config.js"></script>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css">
+
 <!-- FIN HOJAS DE ESTILOS -->
 
 </head>
@@ -35,11 +45,11 @@
 			<div class="container">
 				<ul class="menu-topbar">
 					<li class="language menu-item-has-children">
-						<a href="#" class="toggle-sub-menu"><span class="flag"><img src="<?php echo base_url();?>tools/<?php echo base_url();?>tools/images/flag1.jpg" alt=""></span> Español</a>
+						<a href="#" class="toggle-sub-menu"><span class="flag"><img src="<?php echo base_url("tools/images/flag1.jpg");?>" alt=""></span> Español</a>
 						<ul class="list-language sub-menu">
-							<li><a href="#"><span class="flag"><img src="<?php echo base_url();?>tools/<?php echo base_url();?>tools/images/flag2.jpg" alt=""></span> English</a></li>
-							<li><a href="#"><span class="flag"><img src="<?php echo base_url();?>tools/<?php echo base_url();?>tools/images/flag3.jpg" alt=""></span> Chinase</a></li>
-							<li><a href="#"><span class="flag"><img src="<?php echo base_url();?>tools/<?php echo base_url();?>tools/images/flag4.jpg" alt=""></span> Português</a></li>
+							<li><a href="#"><span class="flag"><img src="<?php echo base_url("tools/images/flag1.jpg");?>" alt=""></span> English</a></li>
+							<li><a href="#"><span class="flag"><img src="<?php echo base_url("tools/images/flag1.jpg");?>" alt=""></span> Chinase</a></li>
+							<li><a href="#"><span class="flag"><img src="<?php echo base_url("tools/images/flag1.jpg");?>" alt=""></span> Português</a></li>
 						</ul>
 					</li>
 					<li class="currencies menu-item-has-children">
@@ -57,10 +67,10 @@
 					<?php }?>
 				</ul>
 				<ul class="list-socials">
-					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					<li><a href="#">|</i></a></li>
+					<li><a href="http://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="http://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="http://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li> | &nbsp;&nbsp; </li>
 				</ul>
 
 			</div>
@@ -87,7 +97,7 @@
 														<span></span>
 														<span></span>
 													</span>
-													<span class="text">Main Menu</span>
+													<span class="text">Menu Principal</span>
 												</a>
 												<a href="#" class="header-top-menu-mobile"><span class="fa fa-cog" aria-hidden="true"></span></a>
 												<ul id="menu-main-menu" class="main-menu clone-main-menu ovic-clone-mobile-menu box-has-content">
@@ -114,7 +124,7 @@
 												<span class="total-price"><span class="text">Pendientes: </span>1</span>
 											</div>
 											<div class="cart-inner cart-empty">
-												<h5 class="title">You have <span class="count-item">0</span> item(s) in your cart</h5>
+												<h5 class="title">Negociaciones <span class="count-item">0</span> Pendientes</h5>
 											</div>
 										</div>
 									</li>
@@ -234,19 +244,20 @@
 								</div>
 							</div>
 						</div>
+						<form id="buscar" name="buscar" method="POST" action="<?= base_url('comprador/buscar') ?>">
 						<div class="col-lg-7 col-md-5 col-sm-8 col-xs-8 col-ts-12 middle-content">
 							<div class="search-form layout2 box-has-content">
 								<div class="search-block">
 									<div class="search-choice parent-content">
 										<select data-placeholder="All Categories" class="chosen-select">
-											<option value="1">Categorías</option>
-											<option value="2">Electrónica</option>
-											<option value="3">Computación</option>
-											<option value="4">Perfumería</option>
-											<option value="5">Accesorios</option>
-											<option value="6">Vehículos</option>
-											<option value="7">Juguetes</option>
-											<option value="8">Moda y Calzado</option>
+											<option value="0">Categorías</option>
+											<option value="1">Electronica</option>
+											<option value="2">Vehiculos</option>
+											<option value="3">Perfumería</option>
+											<option value="4">Deporte</option>
+											<option value="5">Juguetes</option>
+											<option value="6">Casa y Hogar</option>
+											<option value="7">Moda y Calzado</option>
 										</select>
 									</div>
 									<div class="search-inner">
@@ -256,6 +267,7 @@
 								</div>
 							</div>
 						</div>
+						</form>
 						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 col-ts-12 right-content">
 							<div class="hotline">
 								<div class="icon">
@@ -295,14 +307,14 @@
 									<h5 class="subtitle">Telefono</h5>
 									<p class="des">(+56) 9 0000 0000</p>
 									<h5 class="subtitle">Email</h5>
-									<p class="des">Support@b2b.com <br> contacto@b2b.com</p>
+									<p class="des">Soporte@emercatus.cl <br> Contacto@emercatus.cl</p>
 								</div>
 							</div>
 							<ul class="list-socials">
-								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li><a href="http://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="http://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="http://www.pinterest.com"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+								<li><a href="http://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 							</ul>
 						</div>
 						<div class="col-xs-12 col-sm-8 col-md-8 col-lg-9 col-ss-12">
@@ -334,30 +346,24 @@
 											<li><a href="<?php echo base_url("tienda/login");?>">Iniciar Sesión</a></li>
 											<li><a href="<?php echo base_url("tienda/login");?>">Mis Compras</a></li>
 											<li><a href="<?php echo base_url("tienda/login");?>">Mis Ventas</a></li>
-											<li><a href="<?php echo base_url("tienda/login");?>">Ayuda</a></li>
+											
 										</ul>
 									</div>
 								</div>
 								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ts-12 ">
 									<div class="widget widget-custom-menu">
 										<h3 class="widgettitle">Información</h3>
-										<ul >
-											<li><a href="<?php echo base_url("tienda/login");?>">Información de Transportes</a></li>
+										<ul>
 											<li><a href="<?php echo base_url("tienda/login");?>">Politicas de Privacidad</a></li>
 											<li><a href="<?php echo base_url("tienda/login");?>">Terminos y Condiciones</a></li>
-											<li><a href="<?php echo base_url("tienda/login");?>">Contacto</a></li>
-											<li><a href="<?php echo base_url("tienda/login");?>">Mapa del Sitio</a></li>
 										</ul>
 									</div>
 								</div>
 								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ts-12">
 									<div class="widget widget-custom-menu">
 										<h3 class="widgettitle">Servicios al Clientes</h3>
-										<ul >
-											<li><a href="<?php echo base_url("tienda/login");?>">Envios y Devoluciones</a></li>
-											<li><a href="<?php echo base_url("tienda/login");?>">Compras Seguras</a></li>
-											<li><a href="<?php echo base_url("tienda/login");?>">Envios Internacionales</a></li>
-											<li><a href="<?php echo base_url("tienda/login");?>">Afiliados</a></li>
+										<ul>
+											<li><a href="<?php echo base_url("tienda/login");?>">Mapa del Sitio</a></li>
 											<li><a href="<?php echo base_url("tienda/login");?>">Contacto</a></li>
 										</ul>
 									</div>
@@ -365,12 +371,9 @@
 								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ts-12">
 									<div class="widget widget-custom-menu">
 										<h3 class="widgettitle">Pago y Envio</h3>
-										<ul >
-											<li><a href="<?php echo base_url("tienda/login");?>">Terminos de Uso</a></li>
+										<ul>
+											<li><a href="<?php echo base_url("tienda/login");?>">Ayuda</a></li>
 											<li><a href="<?php echo base_url("tienda/login");?>">Metodos de Pago</a></li>
-											<li><a href="<?php echo base_url("tienda/login");?>">Guias de Envio</a></li>
-											<li><a href="<?php echo base_url("tienda/login");?>">Ubicaciones de envio</a></li>
-											<li><a href="<?php echo base_url("tienda/login");?>">Tiempos de entrega</a></li>
 										</ul>
 									</div>
 								</div>
@@ -382,7 +385,7 @@
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8 left-content">
 							<div class="coppy-right">
-								<h3 class="content">© Copyright 2019 <span class="site-name"> EMERCATUS</span> <span class="text"> PROYECTO BETA. </span>Todos los derechos reservados.</h3>
+								<h3 class="content">© Copyright 2019 <span class="site-name"> EMERCATUS</span> <span class="text"> Proyecto Beta. </span>Todos los derechos reservados.</h3>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 right-content">
@@ -394,7 +397,6 @@
 							</ul>
 						</div>
 					</div>
-					
 					
 				</div>
 			</div>
@@ -418,6 +420,16 @@
 <script src="<?php echo base_url();?>tools/js/jquery.scrollbar.min.js"></script>
 <script src="<?php echo base_url();?>tools/js/chosen.min.js"></script>
 <script src="<?php echo base_url();?>tools/js/frontend.js"></script>
+<script src="<?php echo base_url();?>tools/js/dropzone_real.js"></script>
+<script src="<?php echo base_url();?>tools/js/dropzone-config.js"></script>
+
+<script>
+$(document).ready(function() {
+    $('#example').DataTable();
+} );
+
+</script>
+
 <!-- FIN LIBRERIAS JS -->
 	</div>
 </body>

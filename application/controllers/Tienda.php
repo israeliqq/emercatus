@@ -20,6 +20,16 @@ class Tienda extends CI_Controller {
 		session_destroy(); 
 		redirect('/Tienda/index/');
 	}
+	
+	public function terminos()
+	{ 
+		$this->layout->view('terminosycondiciones');
+	}
+	
+		public function politicas()
+	{ 
+		$this->layout->view('politicasdeprivacidad');
+	}
 
 
 	public function login()
