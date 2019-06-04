@@ -44,6 +44,8 @@ class Tienda extends CI_Controller {
 			$row = $this->usuario_model->getCorreoUnico($_POST['email']);
 			$mensaje = "";
 			
+			
+			
 			$usuario = array(
 				'id' 			=> '',
 				'perfil'		=> '',

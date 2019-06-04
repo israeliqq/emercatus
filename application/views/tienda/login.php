@@ -43,20 +43,20 @@
 							</div>
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<span class="label-text">País <span>*</span></span>
-								  <select name="cbo_pais" id="cbo_pais"  class="input-info">
-                                <optgroup label="Sudamerica">
-                                    <option value="">Chile</option>
-                                    <option value="">Brasil</option>
-                                    <option value="">Argentina</option>
-                                    <option value="">Perú</option>
-                                    <option value="">Paraguay</option>
-                                    <option value="">Uruguay</option>
-                                    <option value="">Colombia</option>
-                                    <option value="">Bolivia</option>
-                                    <option value="">Ecuador</option>
-                                    <option value="">Venenzuela</option>  
-                                </optgroup>
-                            </select>
+								<select name="pais" id="cbo_pais"  class="input-info">
+									<optgroup label="Sudamerica">
+										<option>Chile</option>
+										<option>Brasil</option>
+										<option>Argentina</option>
+										<option>Perú</option>
+										<option>Paraguay</option>
+										<option>Uruguay</option>
+										<option>Colombia</option>
+										<option>Bolivia</option>
+										<option>Ecuador</option>
+										<option>Venenzuela</option>  
+									</optgroup>
+								</select>
 							</div>
 							
 							<div id="x" onkeyup="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="display: none;" >
