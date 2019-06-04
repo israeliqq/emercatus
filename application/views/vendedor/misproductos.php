@@ -1,92 +1,99 @@
 <div class="container">
-    
-     <hgroup class="mb20"><h1>Mis Productos</h1></hgroup>
-    <br>
-      
+    <div class="row">
+        <div class="well">
+        <h1 class="text-center" style="font-family: 'Open Sans'">Mis Productos</h1>
+        <div class="list-group">
+          <a href="#" class="list-group-item ">
+                <div class="media col-md-3">
+                    <figure class="pull-left">
+                        <img class="media-object img-rounded img-responsive"  src="http://placehold.it/350x250" alt="placehold.it/350x250" >
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="list-group-item-heading"> Descripción </h4>
+                    <p class="list-group-item-text"> Qui diam libris ei, vidisse incorrupte at mel. His euismod salutandi dissentiunt eu. Habeo offendit ea mea. Nostro blandit sea ea, viris timeam molestiae an has. At nisl platonem eum. 
+                        Vel et nonumy gubergren, ad has tota facilis probatus. Ea legere legimus tibique cum, sale tantas vim ea, eu vivendo expetendis vim. Voluptua vituperatoribus et mel, ius no elitr deserunt mediocrem. Mea facilisi torquatos ad.
 
-    <section class="col-xs-12 col-sm-6 col-md-12">
-        <article  class="search-result row" >
-
-               <div class="col-xs-12 col-sm-12 col-md-3">
-                     <a href="#" title="Lorem ipsum" class="thumbnail"><img src="<?php echo base_url();?>tools/images/product11.jpg" alt="Lorem ipsum" /></a>
-              </div>
-
-
-            <div class="col-xs-12 col-sm-12 col-md-2">
-                <ul class="meta-search">
-                    <li><i class="fa fa-calendar"></i> <span>02/15/2014</span></li>
-                    <li><i class="fa fa-clock-o"></i> <span>4:28 pm</span></li>
+                    </p>
                     <br>
-                    <div>
-                        <button class="btn btn-success" ><span class="fa fa-pencil-square-o"> Modificar</span></button>
-                    </div>
-                    <br>
-                    <div><button class="btn btn-danger" ><span class="fa fa-trash"> Eliminar </span></button>
-                    </div>
+                        <button type="" class="btn btn-dafault " style="background-color: transparent;border-color: transparent;color:#0A7BC1;">Modificar</button>
+                        <span class="fa fa-calendar"> 18/04/2019  </span>
+                        <span class="fa fa-clock-o"> 17:09   </span>
                     
-                </ul>
-            </div>
-
-            <div class="col-xs-12 col-sm-12 col-md-7 excerpet">
-                <h1>Descripción</h1>
-                <h3><a href="#" title="">Voluptatem, exercitationem, suscipit, distinctio</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, exercitationem, suscipit, distinctio, qui sapiente aspernatur molestiae non corporis magni sit sequi iusto debitis delectus doloremque.</p>                        
-               
-            </div>
-            <span class="clearfix borda"></span>
-        </article>
-
-        <article class="search-result row">
-            <div class="col-xs-12 col-sm-12 col-md-3">
-                <a href="#" title="Lorem ipsum" class="thumbnail"><img src="<?php echo base_url();?>tools/images/product9.jpg" alt="Lorem ipsum" /></a>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-2">
-                <ul class="meta-search">
-                    <li><i class="fa fa-calendar"></i> <span>02/13/2014</span></li>
-                    <li><i class="fa fa-clock-o"></i> <span>8:32 pm</span></li>
-                    <br>
-                    <div>
-                        <button class="btn btn-success" ><span class="fa fa-pencil-square-o"> Modificar</span></button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <h2><span class="fa fa-eye"></span> 12424 <small> vistos </small></h2>
+                   
+                    <button type="button" class="btn btn-danger btn-lg btn-block">Eliminar</button>
+                    <div class="stars">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
                     </div>
+                    <p> Promedio 4.5 <small> / </small> 5 </p>
+                </div>
+          </a>
+          <a href="#" class="list-group-item">
+                <div class="media col-md-3">
+                    <figure class="pull-left">
+                        <img class="media-object img-rounded img-responsive" src="http://placehold.it/350x250" alt="placehold.it/350x250" >
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="list-group-item-heading"> Descripción</h4>
+                    <p class="list-group-item-text"> Eu eum corpora torquatos, ne postea constituto mea, quo tale lorem facer no. Ut sed odio appetere partiendo, quo meliore salutandi ex. Vix an sanctus vivendo, sed vocibus accumsan petentium ea. 
+                        Sed integre saperet at, no nec debet erant, quo dico incorrupte comprehensam ut. Et minimum consulatu ius, an dolores iracundia est, oportere vituperata interpretaris sea an. Sed id error quando indoctum, mel suas saperet at.                         
+                    </p>
                     <br>
-                    <div><button class="btn btn-danger" ><span class="fa fa-trash"> Eliminar </span></button>
+                     <button type="" class="btn btn-dafault " style="background-color: transparent;border-color: transparent;color:#0A7BC1;">Modificar</button>
+                        <span class="fa fa-calendar"> 18/04/2019  </span>
+                        <span class="fa fa-clock-o"> 17:09   </span>
+                </div>
+                <div class="col-md-3 text-center">
+                    <h2><span class="fa fa-eye"></span> 12424 <small> vistos </small></h2>
+                    <button type="button" class="btn btn-danger btn-lg btn-block">Eliminar</button>
+                    <div class="stars">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
                     </div>
-                </ul>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-7">
-                 <h1>Descripción</h1>
-                <h3><a href="#" title="">Voluptatem, exercitationem, suscipit, distinctio</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, exercitationem, suscipit, distinctio, qui sapiente aspernatur molestiae non corporis magni sit sequi iusto debitis delectus doloremque.</p>                        
-               
-            </div>
-            <span class="clearfix borda"></span>
-        </article>
-
-        <article class="search-result row">
-            <div class="col-xs-12 col-sm-12 col-md-3">
-                <a href="#" title="Lorem ipsum" class="thumbnail"><img src="<?php echo base_url();?>tools/images/product8.jpg" alt="Lorem ipsum" /></a>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-2">
-                <ul class="meta-search">
-                    <li><i class="fa fa-calendar"></i> <span>01/11/2014</span></li>
-                    <li><i class="fa fa-clock-o"></i> <span>10:13 am</span></li>
+                    <p> Promedio 3.9 <small> / </small> 5 </p>
+                </div>
+          </a>
+          <a href="#" class="list-group-item">
+                <div class="media col-md-3">
+                    <figure class="pull-left">
+                        <img class="media-object img-rounded img-responsive" src="http://placehold.it/350x250" alt="placehold.it/350x250">
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="list-group-item-heading">  Descripción </h4>
+                    <p class="list-group-item-text"> Ut mea viris eripuit theophrastus, cu ponderum accusata consequuntur cum. Suas quaestio cotidieque pro ea. Nam nihil persecuti philosophia id, nam quot populo ea. 
+                        Falli urbanitas ei pri, eu est enim volumus, mei no volutpat periculis. Est errem iudicabit cu. At usu vocibus officiis, ad ius eros tibique appellantur.                         
+                    </p>
                     <br>
-                    <div>
-                        <button class="btn btn-success" ><span class="fa fa-pencil-square-o"> Modificar</span></button>
+                     <button type="" class="btn btn-dafault " style="background-color: transparent;border-color: transparent;color:#0A7BC1;">Modificar</button>
+                        <span class="fa fa-calendar"> 18/04/2019  </span>
+                        <span class="fa fa-clock-o"> 17:09   </span>
+                </div>
+                <div class="col-md-3 text-center">
+                    <h2><span class="fa fa-eye"></span> 12424 <small> vistos </small></h2>
+                    <button type="button" class="btn btn-danger btn-lg btn-block">Eliminar</button>
+                    <div class="stars">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
                     </div>
-                    <br>
-                    <div><button class="btn btn-danger" ><span class="fa fa-trash"> Eliminar </span></button>
-                    </div>
-                </ul>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-7">
-                 <h1>Descripción</h1>
-                <h3><a href="#" title="">Voluptatem, exercitationem, suscipit, distinctio</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, exercitationem, suscipit, distinctio, qui sapiente aspernatur molestiae non corporis magni sit sequi iusto debitis delectus doloremque.</p>                        
-                
-            </div>
-            <span class="clearfix border"></span>
-        </article>          
-
-    </section>
+                    <p> Promedio 4.1 <small> / </small> 5 </p>
+                </div>
+          </a>
+        </div>
+        </div>
+    </div>
 </div>

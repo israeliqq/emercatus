@@ -45,11 +45,11 @@
 			<div class="container">
 				<ul class="menu-topbar">
 					<li class="language menu-item-has-children">
-						<a href="#" class="toggle-sub-menu"><span class="flag"><img src="<?php echo base_url("tools/images/flag1.jpg");?>" alt=""></span> Español</a>
+						<a href="#" class="toggle-sub-menu"><span class="flag"><img src="<?php echo base_url("tools/images/flag3.jpg");?>" alt=""></span> Español</a>
 						<ul class="list-language sub-menu">
-							<li><a href="#"><span class="flag"><img src="<?php echo base_url("tools/images/flag1.jpg");?>" alt=""></span> English</a></li>
-							<li><a href="#"><span class="flag"><img src="<?php echo base_url("tools/images/flag1.jpg");?>" alt=""></span> Chinase</a></li>
-							<li><a href="#"><span class="flag"><img src="<?php echo base_url("tools/images/flag1.jpg");?>" alt=""></span> Português</a></li>
+							<li><a href="#"><span class="flag"><img src="<?php echo base_url("tools/images/flag4.jpg");?>" alt=""></span> English</a></li>
+							<li><a href="#"><span class="flag"><img src="<?php echo base_url("tools/images/flag5.jpg");?>" alt=""></span> Chinase</a></li>
+							<li><a href="#"><span class="flag"><img src="<?php echo base_url("tools/images/Portugal-icon.png");?>" alt=""></span> Português</a></li>
 						</ul>
 					</li>
 					<li class="currencies menu-item-has-children">
