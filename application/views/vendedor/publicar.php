@@ -72,20 +72,31 @@
 					<h4 class="main-title"><span class="fa fa-plus"></span> Agregar imagenes</h4>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-						<form class="dropzone needsclik dz-clikable" name="formu" id="subirimagen" action="<?= base_url('vendedor/publicar')?>" style="background-color: white;border-color:#f27a23;" >
-							<div class="dz-message needsclik" >
-								<center><span class="fa fa-picture-o"></span></center>
-								<br>
-								Suelte los archivos aquí o haga clic para subir. 
-							</div> 
-						</form>
+						<div class='content'>
+           					 <form style="background-color:#f8f8f8" action="<?php echo base_url('vendedor/uploads');?>" class="dropzone"  >
+           					
+                               
+            				</form> 
+            				<br>
+            				<center>
+            					<div >           					 	
+           					 	<button id="uploadfiles" value="" style="background-color:#656EF3;border-color:#656EF3;" class="btn btn-info"><span class="fa fa-upload"> Subir imagenes</span></button>
+           					    </div>
+           					</center>
+            				 
+            			</div> 
+
+           				
 
 						<div class="group-button">
+							<br>
 							<button type="submit" class="btn btn-info btn-block" style="background-color:#f27a23;border-color:#f27a23;">Publicar <span class="fa fa-bullhorn" aria-hidden="true"></span></button>
 						</div>
 					</div>
 				</div>
 			</div>
+
+
 		</div>
 	</div>
 </div>
@@ -146,30 +157,26 @@
 	function show(elem) { elem.style.display = 'inline'; }
 </script>
 
-<script>
 
-	Dropzone.autoDiscover = false;
-	
-new Dropzone('#formu', {
-	autoProcessQueue:true,
-	paramName: "subirimagen",
-	uploadMultiple: false,
-	addRemoveLinks: true,
-	maxFiles: 1,
-	acceptedFiles: "image/jpeg,image/jpg,image/png,image/gif",
-	parallelUploads: 1,
-	init: function() {
-		"use strict";
-		var myDropzone = this;
-	  
-		myDropzone.on("successnction(files,response)"{
-		  var respuesta = response;
-		  if (respuesta.estado == "error") {
-			  alert(respuesta.mensaje);
-		  }
-		});
-	}</script>
+<script src="<?php echo base_url();?>tools/dropzone/dist/min/dropzone.min.js" type="text/javascript"></script>
+<script type='text/javascript'>
+      
+        Dropzone.autoDiscover = false;
 
+        var myDropzone = new Dropzone(".dropzone", { 
+            autoProcessQueue: false,
+			acceptedFiles: ".jpg,.jpeg,.JPG,.JPEG,.png,.PNG",
+            dictRemoveFile:"Eliminar",
+			dictDefaultMessage:"<p style='font-family: «Helvetica Neue», Helvetica, Arial, sans-serif;'>Agrege hasta 2 imagenes de sus productos</p>",
+			addRemoveLinks: true,
+			maxFiles: 2,
+            parallelUploads: 10 // Number of files process at a time (default 2)
+        });
+       
+        $('#uploadfiles').click(function(){
+            myDropzone.processQueue();
+        });
+        </script>
 
 
 <script>

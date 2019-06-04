@@ -16,18 +16,26 @@ class Vendedor extends CI_Controller {
 	}
 
 
-	public function upload()
+	public function uploads()
 	{
-		if ( ! empty($_FILES)) 
-		{
-			$config["upload_path"]   = $this->upload_path;
-			$config["allowed_types"] = "gif|jpg|png";
-			$this->load->library('upload', $config);
+		$target_dir = base_url('tools/upload');;
 
-			if ( ! $this->upload->do_upload("file")) {
-				echo "failed to upload file(s)";
-			}
+		// Upload file
+		$target_file = $target_dir . basename($_FILES["file"]["name"]);
+
+		$msg = "";
+		if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
+		  $msg = "Successfully uploaded";
+		  
+		 //Hay que crear 2 metodos, uno  para subir los datos del producto y otro en hilo para subir las imagenes
+		}else{ 
+		  $msg = "Error while uploading";
+		  
+		 
 		}
+		echo $msg;
+		exit;
+
 	}
 
 	public function guardar()
