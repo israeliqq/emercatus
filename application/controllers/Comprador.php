@@ -14,6 +14,11 @@ class Comprador extends CI_Controller {
 		//$producto = $this->producto_model->getProducto();
 		$this->layout->view('index');
 	}
+	public function negociaciones()
+	{
+		//$producto = $this->producto_model->getProducto();
+		$this->layout->view('negociaciones');
+	}
 
 	public function miscompras()
 	{
