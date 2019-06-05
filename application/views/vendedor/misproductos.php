@@ -20,13 +20,13 @@
 					<p class="list-group-item-text"> Qui diam libris ei, vidisse incorrupte at mel. His euismod salutandi dissentiunt eu. Habeo offendit ea mea. Nostro blandit sea ea, viris timeam molestiae an has. At nisl platonem eum. Vel et nonumy gubergren, ad has tota facilis probatus. Ea legere legimus tibique cum, sale tantas vim ea, eu vivendo expetendis vim. Voluptua vituperatoribus et mel, ius no elitr deserunt mediocrem. Mea facilisi torquatos ad.
 					</p>
 					<br>
-					<a href="" type="submit">Modificar</a>
+					<a href="" type="submit" style="color:red;">Eliminar</a>
 					<span class="fa fa-calendar"></span> 18/04/2019
 					<span class="fa fa-clock-o"></span> 17:09  
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3  text-center">
 					<h2><span class="fa fa-eye"></span> 12424 <small> vistos </small></h2>
-					<button type="button" class="btn btn-danger btn-lg btn-block">Eliminar</button>
+					<button type="button" class="btn btn-primary btn-lg btn-block" style="border:#f27a23;background-color: #f27a23;">Editar</button>
 					<div class="stars">
 						<span class="fa fa-star"></span>
 						<span class="fa fa-star"></span>
@@ -51,13 +51,13 @@
 					<p class="list-group-item-text"> Qui diam libris ei, vidisse incorrupte at mel. His euismod salutandi dissentiunt eu. Habeo offendit ea mea. Nostro blandit sea ea, viris timeam molestiae an has. At nisl platonem eum. Vel et nonumy gubergren, ad has tota facilis probatus. Ea legere legimus tibique cum, sale tantas vim ea, eu vivendo expetendis vim. Voluptua vituperatoribus et mel, ius no elitr deserunt mediocrem. Mea facilisi torquatos ad.
 					</p>
 					<br>
-					<a href="" type="submit">Modificar</a>
+					<a href="" type="submit" style="color:red;">Eliminar</a>
 					<span class="fa fa-calendar"></span> 18/04/2019
 					<span class="fa fa-clock-o"></span> 17:09  
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3  text-center">
 					<h2><span class="fa fa-eye"></span> 12424 <small> vistos </small></h2>
-					<button type="button" class="btn btn-danger btn-lg btn-block">Eliminar</button>
+					<button type="button" class="btn btn-primary btn-lg btn-block" style="background-color:#f27a23;border:#f27a23;">Editar</button>
 					<div class="stars">
 						<span class="fa fa-star"></span>
 						<span class="fa fa-star"></span>
@@ -83,13 +83,13 @@
 					<p class="list-group-item-text"> Qui diam libris ei, vidisse incorrupte at mel. His euismod salutandi dissentiunt eu. Habeo offendit ea mea. Nostro blandit sea ea, viris timeam molestiae an has. At nisl platonem eum. Vel et nonumy gubergren, ad has tota facilis probatus. Ea legere legimus tibique cum, sale tantas vim ea, eu vivendo expetendis vim. Voluptua vituperatoribus et mel, ius no elitr deserunt mediocrem. Mea facilisi torquatos ad.
 					</p>
 					<br>
-					<a href="" type="submit">Modificar</a>
+					<a href="" type="submit" style="color:red;">Eliminar</a>
 					<span class="fa fa-calendar"></span> 18/04/2019
 					<span class="fa fa-clock-o"></span> 17:09  
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3  text-center">
 					<h2><span class="fa fa-eye"></span> 12424 <small> vistos </small></h2>
-					<button type="button" class="btn btn-danger btn-lg btn-block">Eliminar</button>
+					<button type="button" class="btn btn-primary btn-lg btn-block" style="background-color:#f27a23;border:#f27a23;">Editar</button>
 					<div class="stars">
 						<span class="fa fa-star"></span>
 						<span class="fa fa-star"></span>

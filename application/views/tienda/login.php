@@ -17,9 +17,10 @@
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <span class="label-text">Password *</span>
-                            <input type="password" name="txt_pass" class="input-info">	
+                            <input type="password" name="txt_pass" class="input-info">
+                            	
 							<div class="text-right">
-								<a href="#" style="color:#f27a23;">¿Has olvidado tu contraseña?</a>
+								<a href="<?php echo base_url("tienda/recuperar");?>" style="color:#f27a23;">¿Has olvidado tu contraseña?</a>
 							</div>
 						</div>
                    
