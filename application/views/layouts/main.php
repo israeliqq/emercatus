@@ -29,7 +29,7 @@
 <link href="<?php echo base_url();?>tools/css/customs-css3.css"           rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/emercatus.css"              rel="stylesheet" type="text/css">
 
-<link rel="stylesheet" href="<?php echo base_url();?>tools/css/dropzone_real.css">
+<link href="<?php echo base_url('tools/dropzone/dist/min/dropzone.min.css');?>"              rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css">
 
 <!-- FIN HOJAS DE ESTILOS -->
@@ -408,6 +408,9 @@
 <a class="back-to-top" href="#"></a>
 
 <!-- LIBRERIAS JS -->
+
+<script src="<?php echo base_url('tools/dropzone/dist/min/dropzone.min.js');?>"></script>
+<script src="<?php echo base_url();?>tools/js/jquery-3.3.1.min.js"></script>
 <script src="<?php echo base_url();?>tools/js/jquery-2.1.4.min.js"></script>
 <script src="<?php echo base_url();?>tools/js/bootstrap.min.js" ></script>
 <script src="<?php echo base_url();?>tools/js/owl.carousel.min.js"></script>
@@ -420,8 +423,6 @@
 <script src="<?php echo base_url();?>tools/js/jquery.scrollbar.min.js"></script>
 <script src="<?php echo base_url();?>tools/js/chosen.min.js"></script>
 <script src="<?php echo base_url();?>tools/js/frontend.js"></script>
-<script src="<?php echo base_url();?>tools/js/dropzone_real.js"></script>
-<script src="<?php echo base_url();?>tools/js/dropzone-config.js"></script>
 
 <script>
 $(document).ready(function() {

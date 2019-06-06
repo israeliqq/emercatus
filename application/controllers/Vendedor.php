@@ -14,11 +14,18 @@ class Vendedor extends CI_Controller {
 	{
 		$this->layout->view('resumen');
 	}
-
-
-	public function uploads()
+	
+	public function prueba()
 	{
-		$target_dir = base_url('tools/upload');;
+		$this->layout->setLayout('blanco');
+		$this->layout->view('prueba');
+	}
+
+
+
+	public function upload()
+	{
+		$target_dir = base_url('upload');;
 
 		// Upload file
 		$target_file = $target_dir . basename($_FILES["file"]["name"]);
@@ -27,10 +34,12 @@ class Vendedor extends CI_Controller {
 		if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
 		  $msg = "Successfully uploaded";
 		  
+		echo "<script>console.log( 'SE SUBIERON CORRECTAMENTE' );</script>";
+		  
 		 //Hay que crear 2 metodos, uno  para subir los datos del producto y otro en hilo para subir las imagenes
 		}else{ 
 		  $msg = "Error while uploading";
-		  
+		  echo "<script>console.log( 'NO SE SUBIERON LAS IMAGENES' );</script>";
 		 
 		}
 		echo $msg;
@@ -38,40 +47,9 @@ class Vendedor extends CI_Controller {
 
 	}
 
-	public function guardar()
-	{
 
-    $ruta="../images/uploads";
-    $nombre_archivo=$_FILES['file']{'name'};
-    move_uploaded_file($_FILES['file'],$ruta,$nombre_archivo);
-    
 
-	}
 
-	public function remove()
-	{
-		$file = $this->input->post("file");
-		if ($file && file_exists($this->upload_path . "/" . $file)) {
-			unlink($this->upload_path . "/" . $file);
-		}
-	}
-
-	public function list_files()
-	{
-		$this->load->helper("file");
-		$files = get_filenames($this->upload_path);
-		// we need name and size for dropzone mockfile
-		foreach ($files as &$file) {
-			$file = array(
-				'name' => $file,
-				'size' => filesize($this->upload_path . "/" . $file)
-			);
-		}
-
-		header("Content-type: text/json");
-		header("Content-type: application/json");
-		echo json_encode($files);
-	}
 
 
    
@@ -149,18 +127,6 @@ class Vendedor extends CI_Controller {
 		//$this->load->view('tienda/index');
 	}
 
-
-	public function facturacion()
-	{
-		$this->layout->setLayout('dashboard');
-		$this->layout->view('facturacion');
-	}
-
-	public function reputacion()
-	{
-		$this->layout->setLayout('dashboard');
-		$this->layout->view('reputacion');
-	}
 
 
 
