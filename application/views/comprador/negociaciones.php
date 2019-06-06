@@ -1,123 +1,82 @@
-<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 
-<br><br>
 <div class="container">
-
- <div class="well span8 offset2">
-
-        <div class="row-fluid user-row">
-            <div class="span1">
-                    <img class="img-circle"
-                     src="<?php echo base_url();?>tools/images/user.png"
-                     alt="User Pic">
-            </div>
-
-            <div class="span10">
-                <strong>Vendedor</strong><br>
-                <span class="text-muted">Se venden Equipos por mayoria</span>
-            </div>
-
-            <div class="span1 dropdown-user" data-for=".cyruxx">
-                <i class="icon-chevron-down text-muted"></i>
-            </div>
-
-        </div>
-
-
-        <div class="row-fluid user-infos cyruxx">
-            <div class="span10 offset1">
-                <div class="panel panel-primary">
-                      <div class="panel-heading">
-                         <h3 class="panel-title">Más Información</h3>
-                     </div>
-
-                    <div class="panel-body">
-                        <div class="row-fluid">
-                            <div class="span3">
-                                <img class="img-circle"
-                                     src="<?php echo base_url();?>tools/images/user.png"
-                                     alt="User Pic">
-                            </div>
-                            <div class="span6">
-                                <strong>Vendedor</strong><br>
-                                <div> 
-                                    <input type="text" placeholder="Precio" type="number"><br>
-                                    <strong>Comprador</strong><br>
-                                    <input type="text" placeholder="Cantidad" type="number">
-
-                                </div>
-                                <br>
-                                <table class="table table-condensed table-responsive table-user-information">
-                                    <tbody>
-                                    <tr>
-                                        <td>Cantidad</td>
-                                        <td>Precio Unitario</td>
-                                        <td>Total</td>
-                                    </tr>
-                                    <tr>
-                                        <td>1000</td>
-                                        <td>$600.000</td>
-                                        <td>$60.000.000</td>
-                                    </tr>
-                                    
-                                    
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
+    <div class="row">
+        <br>
+        <div class=" col-xs-12 col-sm-offset-0 col-sm-5 ">
+            <div class=" panel panel-default  panel-google-plus">
+                <div class="dropdown">
+                    <span class="dropdown-toggle" type="button" data-toggle="dropdown">
+                        <span class=" fa fa-angle-down"></span>
+                    </span>
+                    <ul class="dropdown-menu" role="menu">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Generar compra</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Enviar mensaje</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Eliminar</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ver perfil</a></li>
+                    </ul>
+                </div>
+              
+                <div class="panel-heading">
+                    <img class="[ img-circle pull-left ]" src="https://lh3.googleusercontent.com/-CxXg7_7ylq4/AAAAAAAAAAI/AAAAAAAAAQ8/LhCIKQC5Aq4/s46-c-k-no/photo.jpg" alt="Mouse0270" />
+                    <h3>vendedor</h3>
+                    <h5><span>Shared publicly</span> - <span>Jun 27, 2014</span> </h5>
+                </div>
+                <div class="panel-body">
+                    <p>se venden telefonos por mayoria , espero sus consultas <3</p>
+                    <center>
+                        <img  class="img-responsive" src="<?php echo base_url();?>tools/images/product2.jpg" alt="">
+                    </center>
+                    
+                </div>
+                <div class="panel-footer">
+                    <button type="button" class="[ btn btn-default ]"><span class="fa fa-trash-o"></span></button>
+                    <button type="button" class="[ btn btn-default ]">
+                        <span class="fa fa-credit-card-alt"></span>
+                    </button>
+                    <div class="input-placeholder">Escribe un comentario...</div>
+                </div>
+                <div class="panel-google-plus-comment">
+                    <img class="img-circle" src="https://lh3.googleusercontent.com/uFp_tsTJboUY7kue5XAsGA=s46" alt="User Image" />
+                    <div class="panel-google-plus-textarea">
+                        <textarea rows="4"></textarea>
+                        <button type="submit" class="[ btn btn-success disabled ]">Comentar</button>
+                        <button type="reset" class="[ btn btn-default ]">Cancelar</button>
                     </div>
-
-
-                    <div class="panel-footer">
-                        <button class="btn  btn-primary" type="button"
-                                data-toggle="tooltip"
-                                data-original-title="Send message to user"><i class="fa fa-commenting"> Enviar mensaje</i></button>
-                        
-                    </div>
+                    <div class="clearfix"></div>
                 </div>
             </div>
         </div>
-
-
-      
-
+        
+       
+    </div>
 </div>
+
 <script>
-    $(document).ready(function() {
-    var panels = $('.user-infos');
-    var panelsButton = $('.dropdown-user');
-    panels.hide();
-
-    //Click dropdown
-    panelsButton.click(function() {
-        //get data-for attribute
-        var dataFor = $(this).attr('data-for');
-        var idFor = $(dataFor);
-
-        //current button
-        var currentButton = $(this);
-        idFor.slideToggle(400, function() {
-            //Completed slidetoggle
-            if(idFor.is(':visible'))
-            {
-                currentButton.html('<i class="icon-chevron-up text-muted"></i>');
-            }
-            else
-            {
-                currentButton.html('<i class="icon-chevron-down text-muted"></i>');
-            }
-        })
-    });
-
-
-    $('[data-toggle="tooltip"]').tooltip();
-
-    $('button').click(function(e) {
-        e.preventDefault();
-        alert("This is a demo.\n :-)");
-    });
+    $(function () {
+   $('.panel-google-plus > .panel-footer > .input-placeholder, .panel-google-plus > .panel-google-plus-comment > .panel-google-plus-textarea > button[type="reset"]').on('click', function(event) {
+        var $panel = $(this).closest('.panel-google-plus');
+            $comment = $panel.find('.panel-google-plus-comment');
+            
+        $comment.find('.btn:first-child').addClass('disabled');
+        $comment.find('textarea').val('');
+        
+        $panel.toggleClass('panel-google-plus-show-comment');
+        
+        if ($panel.hasClass('panel-google-plus-show-comment')) {
+            $comment.find('textarea').focus();
+        }
+   });
+   $('.panel-google-plus-comment > .panel-google-plus-textarea > textarea').on('keyup', function(event) {
+        var $comment = $(this).closest('.panel-google-plus-comment');
+        
+        $comment.find('button[type="submit"]').addClass('disabled');
+        if ($(this).val().length >= 1) {
+            $comment.find('button[type="submit"]').removeClass('disabled');
+        }
+   });
 });
 </script>
