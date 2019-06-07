@@ -81,7 +81,7 @@
             				<br>
             				<center>
             					<div >           					 	
-           					 	<button id="uploadfiles" value="" style="background-color:#656EF3;border-color:#656EF3;" class="btn btn-info"><span class="fa fa-upload"> Subir imagenes</span></button>
+           					 	<input type="button"  id="uploadfiles" name="uploadfiles" value="subir imagen" style="background-color:#656EF3;border-color:#656EF3;" class="btn btn-info"> 
            					    </div>
            					</center>
             				 
@@ -161,23 +161,23 @@
 
 <script src="<?php echo base_url();?>tools/dropzone/dist/min/dropzone.min.js" type="text/javascript"></script>
 <script type='text/javascript'>
-      
-        Dropzone.autoDiscover = false;
 
-        var myDropzone = new Dropzone(".dropzone", { 
-            autoProcessQueue: false,
-			acceptedFiles: ".jpg,.jpeg,.JPG,.JPEG,.png,.PNG",
-            dictRemoveFile:"Eliminar",
-			dictDefaultMessage:"<p style='font-family: «Helvetica Neue», Helvetica, Arial, sans-serif;'>Agrege hasta 2 imagenes de sus productos</p>",
-			addRemoveLinks: true,
-			maxFiles: 2,
-            parallelUploads: 10 // Number of files process at a time (default 2)
-        });
-       
-        $('#uploadfiles').click(function(){
-            myDropzone.processQueue();
-        });
-        </script>
+Dropzone.autoDiscover = false;
+
+var myDropzone = new Dropzone(".dropzone", { 
+    autoProcessQueue: false,
+	acceptedFiles: ".jpg,.jpeg,.JPG,.JPEG,.png,.PNG",
+    dictRemoveFile:"Eliminar",
+	dictDefaultMessage:"<h1 style='font-family: «Helvetica Neue», Helvetica, Arial, sans-serif;'>Agrege hasta 2 imagenes de sus productos</h1>",
+	addRemoveLinks: true,
+	maxFiles: 2,
+    parallelUploads: 10 // Number of files process at a time (default 2)
+});
+
+$('#uploadfiles').click(function(){
+    myDropzone.processQueue();
+});
+</script>
 
 
 <script>

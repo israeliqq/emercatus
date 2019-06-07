@@ -410,7 +410,7 @@
 
 <!-- LIBRERIAS JS -->
 
-<script src="<?php echo base_url('tools/dropzone/dist/min/dropzone.min.js');?>"></script>
+<script src="<?php echo base_url();?>tools/dropzone/dist/min/dropzone.min.js"></script>
 <script src="<?php echo base_url();?>tools/js/jquery-3.3.1.min.js"></script>
 <script src="<?php echo base_url();?>tools/js/jquery-2.1.4.min.js"></script>
 <script src="<?php echo base_url();?>tools/js/bootstrap.min.js" ></script>
@@ -425,12 +425,7 @@
 <script src="<?php echo base_url();?>tools/js/chosen.min.js"></script>
 <script src="<?php echo base_url();?>tools/js/frontend.js"></script>
 
-<script>
-$(document).ready(function() {
-    $('#example').DataTable();
-} );
 
-</script>
 
 <!-- FIN LIBRERIAS JS -->
 	</div>

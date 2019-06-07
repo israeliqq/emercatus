@@ -389,20 +389,7 @@ jQuery(document).ready(function ($) {
         });
     }
 
-    function newletter_popup() {
-        var window_size = parseFloat(jQuery('body').innerWidth());
-        window_size += kt_get_scrollbar_width();
-        if ( window_size > 767 ) {
-            if ( $('body').hasClass('home') ) {
-                $.magnificPopup.open({
-                    items: {
-                        src: '<div class="kt-popup-newsletter "><div class="popup-content"><h4 class="sub-title">Sign up <br> our <span>newsletter</span><br>And get</h4><h5 class="title">25 <span>%</span> Off</h5><h5 class="small-title">first purchase On all online store items.</h5><div class="input-block inner-content"><div class="input-inner"><input type="text" class="input-info" placeholder="Enter your email" name="input-info"><button class="submit">Subscribe</a></div></div><div class="dontshow"><input type="checkbox" class="checkbox" id="check-email"><label for="check-email" class="text-label">Don’t show this popup again</span></div></div></div></div>',
-                        type: 'inline'
-                    }
-                });
-            }
-        }
-    }
+
 
     function quickview_popup() {
         var window_size = parseFloat(jQuery('body').innerWidth());
@@ -420,6 +407,8 @@ jQuery(document).ready(function ($) {
             });
         }
     }
+
+    
     function mobile_config() {
         $('.header').prepend('<div class="header-mobile"><div class="container"><div class="logo"></div><div class="box-minicart"></div><a href="#" class="header-top-menu-mobile"><span class="fa fa-cog" aria-hidden="true"></span></a><a class="menu-bar menu-toggle" href="#"><span class="icon"><span></span><span></span><span></span></span><span class="text">Menu</span></a><div class="mobile-config"><a href="#" class="close-btn">x</a><div class="topbar"></div></div></div></div>');
         $('.header').find('.search-form').clone().appendTo('.mobile-config');
@@ -566,7 +555,7 @@ jQuery(document).ready(function ($) {
         hover_product_item();
     });
     $(window).load(function () {
-        newletter_popup()
+  
         better_equal_elems();
         kt_innit_carousel();
         quickview_popup();
