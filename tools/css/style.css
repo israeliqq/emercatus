@@ -7238,74 +7238,7 @@ AUTO CLEAR
         max-width: 180px;
     }
 }
-a.list-group-item {
-    height:auto;
-    min-height:220px;
-}
-a.list-group-item.active small {
-    color:#fff;
-}
-.stars {
-    margin:20px auto 1px;    
-}
-.thumbnail {
-    position: relative;
-    padding: 0px;
-    margin-bottom: 20px;
-}
 
-.thumbnail > h4 {
-    padding: 7px 5px 0px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-.thumbnail h4 .info {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    font-size: 0.6em;
-    padding-left: 15px;
-    border-top-right-radius: 3px;
-    border-bottom-left-radius: 4px;
-    border-radius: 0px;
-    border-bottom-left-radius: 5px;
-    cursor:  pointer;
-}
-
-.thumbnail h4 .info > span {
-    margin-right: 10px;   
-}
-
-.thumbnail img {
-    width: 100%;
-}
-.thumbnail a.btn {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-}
-   
-.clickable
-{
-    cursor: pointer;
-}
-
-.clickable .glyphicon
-{
-    background: rgba(0, 0, 0, 0.15);
-    display: inline-block;
-    padding: 6px 12px;
-    border-radius: 4px
-}
-
-.panel-heading span
-{
-    margin-top: -23px;
-    font-size: 15px;
-    margin-right: -9px;
-}
-a.clickable { color: inherit; }
-a.clickable:hover { text-decoration:none; }
 
 }.panel-google-plus {
     position: relative;
