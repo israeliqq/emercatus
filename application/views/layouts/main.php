@@ -28,9 +28,7 @@
 <link href="<?php echo base_url();?>tools/css/style.css"                  rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/customs-css3.css"           rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/emercatus.css"              rel="stylesheet" type="text/css">
-
 <link href="<?php echo base_url('tools/dropzone/dist/min/dropzone.min.css');?>"              rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css">
 
 
 <!-- FIN HOJAS DE ESTILOS -->
