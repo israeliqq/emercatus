@@ -19,6 +19,7 @@
 <link href="<?php echo base_url();?>tools/css/bootstrap.min.css"          rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/owl.carousel.min.css"       rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/font-awesome.min.css"       rel="stylesheet" type="text/css">
+<!--       									https://fontawesome.com/v4.7.0/icons/   -->
 <link href="<?php echo base_url();?>tools/css/animate.min.css"            rel="stylesheet" type="text/css">
 <link href="<?php echo base_url();?>tools/css/jquery-ui.min.css"          rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
