@@ -68,7 +68,7 @@
                 <div class="panel-footer">
                     <button type="button" class="[ btn btn-default ]"><span class="fa fa-trash-o"></span></button>
                     <button type="button" class="[ btn btn-default ]"  data-toggle="modal" data-target="#exampleModal" >
-                        <span class="fa fa-credit-card-alt"></span>
+                        <i class="fa fa-paper-plane" aria-hidden="true"></i>
                     </button>
                     <div class="input-placeholder">Escribe un comentario...</div>
                 </div>
@@ -154,7 +154,7 @@
                 <div class="panel-footer">
                     <button type="button" class="[ btn btn-default ]"><span class="fa fa-trash-o"></span></button>
                     <button type="button" class="[ btn btn-default ]"  data-toggle="modal" data-target="#exampleModal" >
-                        <span class="fa fa-credit-card-alt"></span>
+                       <i class="fa fa-paper-plane" aria-hidden="true"></i>
                     </button>
                     <div class="input-placeholder">Escribe un comentario...</div>
                 </div>
@@ -235,7 +235,7 @@
                 <div class="panel-footer">
                     <button type="button" class="[ btn btn-default ]"><span class="fa fa-trash-o"></span></button>
                     <button type="button" class="[ btn btn-default ]"  data-toggle="modal" data-target="#exampleModal" >
-                        <span class="fa fa-credit-card-alt"></span>
+                        <i class="fa fa-paper-plane" aria-hidden="true"></i>
                     </button>
                     <div class="input-placeholder">Escribe un comentario...</div>
                 </div>
@@ -289,7 +289,7 @@
                 <div class="panel-footer">
                     <button type="button" class="[ btn btn-default ]"><span class="fa fa-trash-o"></span></button>
                     <button type="button" class="[ btn btn-default ]"  data-toggle="modal" data-target="#exampleModal" >
-                        <span class="fa fa-credit-card-alt"></span>
+                       <i class="fa fa-paper-plane" aria-hidden="true"></i>
                     </button>
                     <div class="input-placeholder">Escribe un comentario...</div>
                 </div>

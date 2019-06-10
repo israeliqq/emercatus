@@ -63,7 +63,7 @@
 					<?php if(isset($_SESSION["usuario"])){ ?>
 						<li><?php echo strtoupper($_SESSION["usuario"])." "; ?><a href="<?php echo base_url("tienda/cerrar");?>"> Cerrar Sesión</a></li>		
 					<?php }else{?>
-						<li><a href="<?php echo base_url("tienda/login");?>">Registrarse / Iniciar Sesión</a></li>
+						<li><a href="<?php echo base_url("tienda/login");?>"><span class="fa fa-user-plus"></span> Registrarse / Iniciar Sesión</a></li>
 					<?php }?>
 				</ul>
 				<ul class="list-socials">

@@ -27,14 +27,7 @@
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3  text-center">
 					<h2><span class="fa fa-eye"></span> 12424 <small> vistos </small></h2>
 					<button type="button" class="btn btn-primary btn-lg btn-block" style="border:#f27a23;background-color: #f27a23;">Editar</button>
-					<div class="stars">
-						<span class="fa fa-star"></span>
-						<span class="fa fa-star"></span>
-						<span class="fa fa-star"></span>
-						<span class="fa fa-star"></span>
-						<span class="fa fa-star"></span>
-					</div>
-					<p> Promedio 4.5 <small> / </small> 5 </p>
+
 				</div>
 			</div>
 			
@@ -58,14 +51,7 @@
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3  text-center">
 					<h2><span class="fa fa-eye"></span> 12424 <small> vistos </small></h2>
 					<button type="button" class="btn btn-primary btn-lg btn-block" style="background-color:#f27a23;border:#f27a23;">Editar</button>
-					<div class="stars">
-						<span class="fa fa-star"></span>
-						<span class="fa fa-star"></span>
-						<span class="fa fa-star"></span>
-						<span class="fa fa-star"></span>
-						<span class="fa fa-star"></span>
-					</div>
-					<p> Promedio 4.5 <small> / </small> 5 </p>
+					
 				</div>
 			</div>
 			
@@ -90,14 +76,7 @@
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3  text-center">
 					<h2><span class="fa fa-eye"></span> 12424 <small> vistos </small></h2>
 					<button type="button" class="btn btn-primary btn-lg btn-block" style="background-color:#f27a23;border:#f27a23;">Editar</button>
-					<div class="stars">
-						<span class="fa fa-star"></span>
-						<span class="fa fa-star"></span>
-						<span class="fa fa-star"></span>
-						<span class="fa fa-star"></span>
-						<span class="fa fa-star"></span>
-					</div>
-					<p> Promedio 4.5 <small> / </small> 5 </p>
+					
 				</div>
 			</div>
 			
