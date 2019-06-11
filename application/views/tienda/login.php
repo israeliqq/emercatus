@@ -1,3 +1,11 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+
+	<link rel="stylesheet" href="<?php echo base_url();?>tools/css/strength.css">
+	<script src="<?php echo base_url();?>tools/js/password_strength.js"></script>
+	<script src="<?php echo base_url();?>tools/js/jquery-strength.js"></script>
+
 
 <form id="registrar" name="registrar" method="POST" action="<?= base_url('Tienda/login') ?>">
    
@@ -25,9 +33,11 @@
 						</div>
                    
 						
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><input type="submit" class="btn btn-info" name="btn_login" value="Ingresar" style="background-color:#f27a23;border-color:#f27a23;"></div>		
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><input type="submit" class="btn btn-info" name="btn_login" value="Ingresar" style="background-color:#f27a23;border-color:#f27a23;"></div>	
+
                 </div>
             </div>
+            <br>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 					<div class="register-form">
 						<h4 class="main-title">Crear Cuenta</h4>
@@ -69,17 +79,19 @@
 								<span class="label-text">Email <span>*</span></span>
 								<input type="text" name="email" class="input-info"value="<?php if(isset($usuario)){echo $usuario['correo'];}?>">	
 							</div>
-							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+							<div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6">
 								<span class="label-text">Password <span>*</span><span>
-								<input type="password" name="pass1" class="input-info">
+								<input type="password" name="pass1" class="check-seguridad form-control" value="" style="background-color:#f8f8f8" >
+								<br>
 							</div>
 							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 								<span class="label-text">Confirmar Password <span>*</span><span>
-								<input type="password" name="pass2" class="input-info">	
+								<input type="password" name="pass2" class="form-control" style="background-color:#f8f8f8">	
+								<br>
 							</div>
 							
-						
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><input type="submit" class="btn btn-info" name="btn_registrase" value="Registrarse" style="background-color:#f27a23;border-color:#f27a23;"></div>		
+						<br>
+						<div class="col-xs-12 col-sm-offset-9 col-md-12 col-lg-12"><input type="submit" class="btn btn-info" name="btn_registrase" value="Registrarse" style="background-color:#f27a23;border-color:#f27a23;"></div>		
 					</div>
 			
             </div>
@@ -89,5 +101,35 @@
 	<div style="height: 50px;"></div>
 </form>
 
+
+
+<script>
+	
+		jQuery(function($) {
+			
+			$(".check-seguridad").strength({
+				templates: {
+    			toggle: '<span class="input-group-addon"><span class="fa fa-eye {toggleClass}"></span></span>'
+                
+                },
+                scoreLables: {
+                        empty: 'Vacío',
+                        invalid: 'Invalido',
+                        weak: 'Débil',
+                        good: 'Bueno',
+                        strong: 'Fuerte'
+                    }, 
+                scoreClasses: {
+                        empty: '',
+                        invalid: 'label-danger',
+                        weak: 'label-warning',
+                        good: 'label-info',
+                        strong: 'label-success'
+                    },
+
+			});
+		});
+
+</script>
 
 
