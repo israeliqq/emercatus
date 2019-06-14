@@ -13,7 +13,9 @@
         <div class="breadcrumbs">
             <a href="#">Inicio</a> \ <span class="current"> Ingresar al Sistema</span>
         </div>
+
         <div class="login-register-form content-form row">
+
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <div class="register-form">
                     <h4 class="main-title">Ingresar al Sistema</h4>
@@ -37,6 +39,14 @@
 
                 </div>
             </div>
+
+
+
+
+
+
+
+            
             <br>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 					<div class="register-form">
