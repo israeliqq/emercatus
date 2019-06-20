@@ -74,24 +74,18 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
 						<div class='content'>
-           					 <form style="background-color:#f8f8f8" action="<?php echo base_url('vendedor/uploads');?>" class="dropzone"  >
-           					
-                               
+							<br>
+           					 <form style="background-color:#f8f8f8" action="<?php echo base_url('vendedor/uploads');?>" class="dropzone"  > 
             				</form> 
-            				<br>
-            				<center>
-            					<div >           					 	
-           					 	<input type="button"  id="uploadfiles" name="uploadfiles" value="subir imagen" style="background-color:#656EF3;border-color:#656EF3;" class="btn btn-info"> 
-           					    </div>
-           					</center>
+            				
             				 
             			</div> 
 
            				
 
 						<div class="group-button">
-							<br>
-							<button type="submit" class="btn btn-info btn-block" style="background-color:#f27a23;border-color:#f27a23;">Publicar <span class="fa fa-bullhorn" aria-hidden="true"></span></button>
+							
+							<button type="submit" class="btn btn-info btn-block" style="background-color:#f27a23;border-color:#f27a23; height: 50px">Publicar <span class="fa fa-bullhorn" aria-hidden="true"></span></button>
 						</div>
 					</div>
 				</div>

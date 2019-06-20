@@ -38,7 +38,7 @@ class Vendedor extends CI_Controller {
 		  
 		 //Hay que crear 2 metodos, uno  para subir los datos del producto y otro en hilo para subir las imagenes
 		}else{ 
-		  $msg = "Error while uploading";
+		  $msg = "Error al cargar las imagenes";
 		  echo "<script>console.log( 'NO SE SUBIERON LAS IMAGENES' );</script>";
 		 
 		}

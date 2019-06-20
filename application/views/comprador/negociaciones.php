@@ -37,7 +37,7 @@
                                   <div class="modal-content">
                                       <div class="modal-header">
                                           <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
-                                          <h4 class="modal-title">Compose</h4>
+                                          <center><h4 class="modal-title">Producto mas comprado</h4></center>
                                       </div>
                                       <div class="modal-body">
                                         <div class="panel panel-default"  >
@@ -46,7 +46,7 @@
                                             <script>
                                              $(function($){
                                                  $('#grafica').highcharts({
-                                                     title:{text:'Producto mas comprado'},
+                                                     title:{text:''},
                                                      xAxis:{categories:['2019','2020','2021']},
                                                      yAxis:{title:'Porcentaje %',plotLines:[{value:0,width:1,color:'#808080'}]},
                                                      tooltip:{valueSuffix:'%'},
@@ -139,7 +139,7 @@
                  <div class="panel-body">
                  <p>se venden telefonos por mayoria , espero sus consultas <3</p>
                  <center>
-                 <img  class="img-responsive" src="<?php echo base_url();?>tools/images/product2.jpg" alt="">
+                 <img  class="img-responsive" src="<?php echo base_url();?>tools/images/product12.jpg" alt="">
                  </center>
                                                     
                 </div>

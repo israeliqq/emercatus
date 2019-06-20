@@ -1,4 +1,4 @@
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
 
@@ -47,7 +47,7 @@
 
 
             
-            <br>
+            
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 					<div class="register-form">
 						<h4 class="main-title">Crear Cuenta</h4>

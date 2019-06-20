@@ -63,7 +63,7 @@
 					<?php if(isset($_SESSION["usuario"])){ ?>
 						<li><?php echo strtoupper($_SESSION["usuario"])." "; ?><a href="<?php echo base_url("tienda/cerrar");?>"> Cerrar Sesión</a></li>		
 					<?php }else{?>
-						<li><a href="<?php echo base_url("tienda/login");?>"><span class="fa fa-user-plus"></span> Registrarse / Iniciar Sesión</a></li>
+						<li><a href="<?php echo base_url("tienda/login");?>">Registrarse / Iniciar Sesión</a></li>
 					<?php }?>
 				</ul>
 				<ul class="list-socials">
@@ -102,6 +102,7 @@
 												<a href="#" class="header-top-menu-mobile"><span class="fa fa-cog" aria-hidden="true"></span></a>
 												<ul id="menu-main-menu" class="main-menu clone-main-menu ovic-clone-mobile-menu box-has-content">
 													<li class="menu-item">
+														
 														<a  href="<?php echo base_url("comprador/negociaciones");?>" class="kt-item-title ovic-menu-item-title" title="Home">NEGOCIACIONES</a>
 													</li>
 													<li class="menu-item"><a href="<?php echo base_url("vendedor/misproductos");?>">MIS PRODUCTOS</a></li>

@@ -1,3 +1,9 @@
+<?php
+
+
+
+?>
+
 
 <form id="registrar" name="registrar" method="POST" action="<?= base_url('Tienda/login') ?>">
    
