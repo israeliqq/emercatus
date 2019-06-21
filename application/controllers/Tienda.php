@@ -41,8 +41,21 @@ class Tienda extends CI_Controller {
 
    {
 
-   	
+   	$correo = $_POST['txt_correo'];
+   	$cont = $this->usuario_model->getCorreoUnico($correo);
+	
+		if (con>=1) {
 
+		    #correo enviado
+		}
+
+		else
+
+		{
+
+			alert('el correo no  ha sido enviado');
+
+		}
 
 
 
