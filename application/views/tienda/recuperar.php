@@ -1,11 +1,7 @@
-<?php
 
 
 
-?>
-
-
-<form id="registrar" name="registrar" method="POST" action="<?= base_url('Tienda/login') ?>">
+<form id="registrar" name="registrar" method="POST" action="<?= base_url('Tienda/recuperarcorreo') ?>">
    
    <div class="container">
         <div class="breadcrumbs">

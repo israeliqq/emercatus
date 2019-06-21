@@ -37,8 +37,58 @@ class Tienda extends CI_Controller {
 	}
 
 
+   public function recuperarcorreo()
+
+   {
+
+   	
+
+
+
+
+   }
+
+
 	public function login()
 	{
+
+         if (!empty($_POST))
+         {
+         	$name = $_POST['txt_correo'];
+         	$password2 = $_POST['txt_pass'];
+         	$captcha = $_POST['g-recaptcha-response'];
+
+
+         	$secret = '6LfI96kUAAAAAC02D44-LzrfYVp9YEXOZ3e1wwbB';
+
+
+         	if (! $captcha) 
+         	{
+         		echo "por favor verifica el captcha";
+         	}
+
+         	$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=$captcha");
+
+
+         	var_dump($response);
+
+         	$arr= json_decode($response,true);
+
+         	if ($arr['success'])
+         	{
+         		echo "exitooo";
+         	}else
+         	{
+         		echo "error de captcha";
+         	}
+	
+         }
+
+
+
+
+
+
 		/* BOTON REGISTRARSE */
 		if (isset($_POST['btn_registrase'])){
 			$row = $this->usuario_model->getCorreoUnico($_POST['email']);

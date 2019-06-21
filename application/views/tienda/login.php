@@ -1,4 +1,5 @@
 
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
 
@@ -32,6 +33,9 @@
 							<div class="text-right">
 								<a href="<?php echo base_url("tienda/recuperar");?>" style="color:#f27a23;">¿Has olvidado tu contraseña?</a>
 							</div>
+
+							 <div class="g-recaptcha" data-sitekey="6LfI96kUAAAAAOwGAltWofkrzwaGWAdpSKjv5d34"></div>
+							 <br>
 						</div>
                    
 						
